@@ -36,46 +36,46 @@ F 3 "" H 3400 1825 50  0000 C CNN
 	1    3400 1825
 	1    0    0    -1  
 $EndComp
-Text Label 4225 6625 0    55   ~ 0
+Text Label 4200 6575 0    55   ~ 0
 col0
-Text Label 4225 6725 0    55   ~ 0
+Text Label 4200 6675 0    55   ~ 0
 col1
-Text Label 4225 6275 0    55   ~ 0
+Text Label 4200 6225 0    55   ~ 0
 col2
-Text Label 4225 4925 0    55   ~ 0
+Text Label 4200 4875 0    55   ~ 0
 col3
-Text Label 4225 6125 0    55   ~ 0
+Text Label 4200 6075 0    55   ~ 0
 col4
-Text Label 4225 6025 0    55   ~ 0
+Text Label 4200 5975 0    55   ~ 0
 col5
-Text Label 4225 7025 0    55   ~ 0
+Text Label 4200 6975 0    55   ~ 0
 row3
-Text Label 4225 5275 0    55   ~ 0
+Text Label 4200 5225 0    55   ~ 0
 row2
-Text Label 4225 6925 0    55   ~ 0
+Text Label 4200 6875 0    55   ~ 0
 row1
-Text Label 4225 6825 0    55   ~ 0
+Text Label 4200 6775 0    55   ~ 0
 row0
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR022
 U 1 1 5A0E2936
-P 2100 4200
-F 0 "#PWR022" H 2100 4050 50  0001 C CNN
-F 1 "VCC" H 2100 4350 50  0000 C CNN
-F 2 "" H 2100 4200 50  0000 C CNN
-F 3 "" H 2100 4200 50  0000 C CNN
-	1    2100 4200
+P 2075 4150
+F 0 "#PWR022" H 2075 4000 50  0001 C CNN
+F 1 "VCC" H 2075 4300 50  0000 C CNN
+F 2 "" H 2075 4150 50  0000 C CNN
+F 3 "" H 2075 4150 50  0000 C CNN
+	1    2075 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR023
 U 1 1 5A0E293C
-P 2475 7125
-F 0 "#PWR023" H 2475 6875 50  0001 C CNN
-F 1 "GND" H 2475 6975 50  0000 C CNN
-F 2 "" H 2475 7125 50  0000 C CNN
-F 3 "" H 2475 7125 50  0000 C CNN
-	1    2475 7125
+P 2450 7075
+F 0 "#PWR023" H 2450 6825 50  0001 C CNN
+F 1 "GND" H 2450 6925 50  0000 C CNN
+F 2 "" H 2450 7075 50  0000 C CNN
+F 3 "" H 2450 7075 50  0000 C CNN
+	1    2450 7075
 	1    0    0    -1  
 $EndComp
 Text Label 3450 1575 2    55   ~ 0
@@ -85,12 +85,12 @@ SDA
 $Comp
 L vitamins_included-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel-lets_split_panel-rescue P5
 U 1 1 5A0E295E
-P 1150 5525
-F 0 "P5" H 1475 5400 50  0000 C CNN
-F 1 "UJ2-MBH-1-SMT" H 1150 5725 50  0000 C CNN
-F 2 "Connectors:USB-Mini-B-SMD" V 1100 5425 50  0001 C CNN
-F 3 "" V 1100 5425 50  0000 C CNN
-	1    1150 5525
+P 1125 5475
+F 0 "P5" H 1450 5350 50  0000 C CNN
+F 1 "UJ2-MBH-1-SMT" H 1125 5675 50  0000 C CNN
+F 2 "Connectors:USB-Mini-B-SMD" V 1075 5375 50  0001 C CNN
+F 3 "" V 1075 5375 50  0000 C CNN
+	1    1125 5475
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -154,7 +154,7 @@ U 1 1 5A0E2982
 P 3300 3125
 F 0 "R10" H 3330 3145 50  0000 L CNN
 F 1 "200R" H 3330 3085 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 3300 3125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 3125 50  0001 C CNN
 F 3 "" H 3300 3125 50  0000 C CNN
 	1    3300 3125
 	0    -1   -1   0   
@@ -173,176 +173,176 @@ $EndComp
 $Comp
 L vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U2
 U 1 1 5A0E298E
-P 2875 4975
+P 2850 4925
 AR Path="/5A0E298E" Ref="U2"  Part="1" 
 AR Path="/5A0DF911/5A0E298E" Ref="U2"  Part="1" 
-F 0 "U2" H 3425 5912 60  0000 C CNN
-F 1 "ATMega32U4" H 3425 5806 60  0000 C CNN
-F 2 "SeeedOPL-IC-2016:QFN44G-0.5-7X7MM" H 4575 5925 60  0001 C CNN
-F 3 "" H 4575 5925 60  0000 C CNN
-	1    2875 4975
+F 0 "U2" H 3400 5862 60  0000 C CNN
+F 1 "ATMega32U4" H 3400 5756 60  0000 C CNN
+F 2 "SeeedOPL-IC-2016:QFN44G-0.5-7X7MM" H 4550 5875 60  0001 C CNN
+F 3 "" H 4550 5875 60  0000 C CNN
+	1    2850 4925
 	1    0    0    -1  
 $EndComp
-Text Label 4250 6525 0    55   ~ 0
+Text Label 4225 6475 0    55   ~ 0
 WD2812-in
 Text Label 3075 2525 2    55   ~ 0
 WD2812-in
 Text Label 3925 2525 0    55   ~ 0
 SDA
-Text Label 4275 5525 0    55   ~ 0
+Text Label 4250 5475 0    55   ~ 0
 SDA
-Text Label 4275 5425 0    55   ~ 0
+Text Label 4250 5375 0    55   ~ 0
 SCL/D3
-Text Label 4275 5175 0    60   ~ 0
+Text Label 4250 5125 0    60   ~ 0
 buzz
 Text Label 3200 3125 2    60   ~ 0
 buzz
 $Comp
 L vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue Y2
 U 1 1 5A0E29AF
-P 2550 5925
-F 0 "Y2" V 2500 6050 50  0000 L CNN
-F 1 "16MHz" V 2575 6075 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm" H 2550 5925 50  0001 C CNN
-F 3 "" H 2550 5925 50  0001 C CNN
-	1    2550 5925
+P 2525 5875
+F 0 "Y2" V 2475 6000 50  0000 L CNN
+F 1 "16MHz" V 2550 6025 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm" H 2525 5875 50  0001 C CNN
+F 3 "" H 2525 5875 50  0001 C CNN
+	1    2525 5875
 	0    -1   1    0   
 $EndComp
 $Comp
 L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R9
 U 1 1 5A0E29B5
-P 1975 4650
-F 0 "R9" H 2005 4670 50  0000 L CNN
-F 1 "4k7" H 2005 4610 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 1975 4650 50  0001 C CNN
-F 3 "" H 1975 4650 50  0000 C CNN
-	1    1975 4650
+P 1950 4600
+F 0 "R9" H 1980 4620 50  0000 L CNN
+F 1 "4k7" H 1980 4560 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1950 4600 50  0001 C CNN
+F 3 "" H 1950 4600 50  0000 C CNN
+	1    1950 4600
 	-1   0    0    1   
 $EndComp
 $Comp
 L vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR030
 U 1 1 5A0E29BB
-P 2525 4200
-F 0 "#PWR030" H 2525 4050 50  0001 C CNN
-F 1 "VBUS" H 2540 4373 50  0000 C CNN
-F 2 "" H 2525 4200 50  0001 C CNN
-F 3 "" H 2525 4200 50  0001 C CNN
-	1    2525 4200
+P 2500 4150
+F 0 "#PWR030" H 2500 4000 50  0001 C CNN
+F 1 "VBUS" H 2515 4323 50  0000 C CNN
+F 2 "" H 2500 4150 50  0001 C CNN
+F 3 "" H 2500 4150 50  0001 C CNN
+	1    2500 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C8
 U 1 1 5A0E29C1
-P 2475 6475
-F 0 "C8" H 2567 6521 50  0000 L CNN
-F 1 "1uF" H 2567 6430 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2475 6475 50  0001 C CNN
-F 3 "" H 2475 6475 50  0001 C CNN
-	1    2475 6475
+P 2450 6425
+F 0 "C8" H 2542 6471 50  0000 L CNN
+F 1 "1uF" H 2542 6380 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2450 6425 50  0001 C CNN
+F 3 "" H 2450 6425 50  0001 C CNN
+	1    2450 6425
 	-1   0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C6
 U 1 1 5A0E29C7
-P 2375 5725
-F 0 "C6" V 2300 5825 50  0000 C CNN
-F 1 "18pF" V 2275 5625 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 2375 5725 50  0001 C CNN
-F 3 "" H 2375 5725 50  0001 C CNN
-	1    2375 5725
+P 2350 5675
+F 0 "C6" V 2275 5775 50  0000 C CNN
+F 1 "18pF" V 2250 5575 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2350 5675 50  0001 C CNN
+F 3 "" H 2350 5675 50  0001 C CNN
+	1    2350 5675
 	0    1    1    0   
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C7
 U 1 1 5A0E29CD
-P 2375 6125
-F 0 "C7" V 2550 6125 50  0000 C CNN
-F 1 "18pF" V 2475 6125 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 2375 6125 50  0001 C CNN
-F 3 "" H 2375 6125 50  0001 C CNN
-	1    2375 6125
+P 2350 6075
+F 0 "C7" V 2525 6075 50  0000 C CNN
+F 1 "18pF" V 2450 6075 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 2350 6075 50  0001 C CNN
+F 3 "" H 2350 6075 50  0001 C CNN
+	1    2350 6075
 	0    1    1    0   
 $EndComp
 $Comp
 L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R7
 U 1 1 5A0E29D3
-P 1625 5425
-F 0 "R7" V 1650 5125 50  0000 R CNN
-F 1 "22R" V 1650 5325 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" H 1625 5425 50  0001 C CNN
-F 3 "" H 1625 5425 50  0000 C CNN
-	1    1625 5425
+P 1600 5375
+F 0 "R7" V 1625 5075 50  0000 R CNN
+F 1 "22R" V 1625 5275 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1600 5375 50  0001 C CNN
+F 3 "" H 1600 5375 50  0000 C CNN
+	1    1600 5375
 	0    -1   -1   0   
 $EndComp
 $Comp
 L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R8
 U 1 1 5A0E29D9
-P 1625 5525
-F 0 "R8" V 1650 5225 50  0000 R CNN
-F 1 "22R" V 1650 5425 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" H 1625 5525 50  0001 C CNN
-F 3 "" H 1625 5525 50  0000 C CNN
-	1    1625 5525
+P 1600 5475
+F 0 "R8" V 1625 5175 50  0000 R CNN
+F 1 "22R" V 1625 5375 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1600 5475 50  0001 C CNN
+F 3 "" H 1600 5475 50  0000 C CNN
+	1    1600 5475
 	0    -1   -1   0   
 $EndComp
 $Comp
 L vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR031
 U 1 1 5A0E29DF
-P 1500 5275
-F 0 "#PWR031" H 1500 5125 50  0001 C CNN
-F 1 "VBUS" H 1515 5448 50  0000 C CNN
-F 2 "" H 1500 5275 50  0001 C CNN
-F 3 "" H 1500 5275 50  0001 C CNN
-	1    1500 5275
+P 1475 5225
+F 0 "#PWR031" H 1475 5075 50  0001 C CNN
+F 1 "VBUS" H 1490 5398 50  0000 C CNN
+F 2 "" H 1475 5225 50  0001 C CNN
+F 3 "" H 1475 5225 50  0001 C CNN
+	1    1475 5225
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR032
 U 1 1 5A0E29E5
-P 2100 6200
-F 0 "#PWR032" H 2100 5950 50  0001 C CNN
-F 1 "GND" H 2100 6050 50  0000 C CNN
-F 2 "" H 2100 6200 50  0000 C CNN
-F 3 "" H 2100 6200 50  0000 C CNN
-	1    2100 6200
+P 2075 6150
+F 0 "#PWR032" H 2075 5900 50  0001 C CNN
+F 1 "GND" H 2075 6000 50  0000 C CNN
+F 2 "" H 2075 6150 50  0000 C CNN
+F 3 "" H 2075 6150 50  0000 C CNN
+	1    2075 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR033
 U 1 1 5A0E29EB
-P 1050 6050
-F 0 "#PWR033" H 1050 5800 50  0001 C CNN
-F 1 "GND" H 1050 5900 50  0000 C CNN
-F 2 "" H 1050 6050 50  0000 C CNN
-F 3 "" H 1050 6050 50  0000 C CNN
-	1    1050 6050
+P 1025 6000
+F 0 "#PWR033" H 1025 5750 50  0001 C CNN
+F 1 "GND" H 1025 5850 50  0000 C CNN
+F 2 "" H 1025 6000 50  0000 C CNN
+F 3 "" H 1025 6000 50  0000 C CNN
+	1    1025 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C5
 U 1 1 5A0E29F1
-P 2175 7025
-F 0 "C5" H 2267 7071 50  0000 L CNN
-F 1 "1uF" H 2267 6980 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2175 7025 50  0001 C CNN
-F 3 "" H 2175 7025 50  0001 C CNN
-	1    2175 7025
+P 2150 6975
+F 0 "C5" H 2242 7021 50  0000 L CNN
+F 1 "1uF" H 2242 6930 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2150 6975 50  0001 C CNN
+F 3 "" H 2150 6975 50  0001 C CNN
+	1    2150 6975
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2925 1675 3450 1675
 Wire Wire Line
-	2475 6575 2475 6625
+	2450 6525 2450 6575
 Wire Wire Line
-	2475 6925 2625 6925
-Connection ~ 2475 7025
+	2450 6875 2600 6875
+Connection ~ 2450 6975
 Wire Wire Line
-	2475 6825 2625 6825
-Connection ~ 2475 6925
+	2450 6775 2600 6775
+Connection ~ 2450 6875
 Wire Wire Line
-	1975 4525 2100 4525
+	1950 4475 2075 4475
 Wire Wire Line
-	2100 4200 2100 4425
+	2075 4150 2075 4375
 Wire Wire Line
 	3400 1825 3400 1775
 Wire Wire Line
@@ -366,104 +366,103 @@ Wire Wire Line
 Wire Wire Line
 	3075 2525 3125 2525
 Wire Wire Line
-	2475 6725 2625 6725
-Connection ~ 2475 6825
+	2450 6675 2600 6675
+Connection ~ 2450 6775
 Wire Wire Line
-	2475 6625 2575 6625
-Connection ~ 2475 6725
+	2450 6575 2550 6575
+Connection ~ 2450 6675
 Wire Wire Line
 	3925 2525 3875 2525
 Wire Wire Line
-	4275 5425 4225 5425
+	4250 5375 4200 5375
 Wire Wire Line
-	4225 5525 4275 5525
+	4200 5475 4250 5475
 Wire Wire Line
-	4275 5175 4225 5175
+	4250 5125 4200 5125
 Wire Wire Line
-	2100 4625 2625 4625
-Connection ~ 2100 4525
+	2075 4575 2600 4575
+Connection ~ 2075 4475
 Wire Wire Line
-	2100 5225 2625 5225
-Connection ~ 2100 4625
+	2075 5175 2600 5175
+Connection ~ 2075 4575
 Wire Wire Line
-	2625 5125 2100 5125
-Connection ~ 2100 5125
+	2600 5075 2075 5075
+Connection ~ 2075 5075
 Wire Wire Line
-	2550 5775 2550 5725
+	2525 5725 2525 5675
 Wire Wire Line
-	2475 5725 2550 5725
+	2450 5675 2525 5675
 Wire Wire Line
-	2550 6075 2550 6125
+	2525 6025 2525 6075
 Wire Wire Line
-	2475 6125 2550 6125
+	2450 6075 2525 6075
 Wire Wire Line
-	1975 4775 1975 4750
-Connection ~ 1975 4775
+	1950 4725 1950 4700
 Wire Wire Line
-	1975 4525 1975 4550
+	1950 4475 1950 4500
 Wire Wire Line
-	2525 4200 2525 4325
+	2500 4150 2500 4275
 Wire Wire Line
-	2525 4425 2625 4425
+	2500 4375 2600 4375
 Wire Wire Line
-	2625 4325 2525 4325
-Connection ~ 2525 4325
+	2600 4275 2500 4275
+Connection ~ 2500 4275
 Wire Wire Line
-	2475 6375 2475 6325
+	2450 6325 2450 6275
 Wire Wire Line
-	2475 6325 2625 6325
-Connection ~ 2475 6625
-Connection ~ 2550 6125
-Connection ~ 2550 5725
-Connection ~ 2100 6125
+	2450 6275 2600 6275
+Connection ~ 2450 6575
+Connection ~ 2525 6075
+Connection ~ 2525 5675
+Connection ~ 2075 6075
 Wire Wire Line
-	1725 5425 2625 5425
+	1700 5375 2600 5375
 Wire Wire Line
-	2625 5525 1725 5525
+	2600 5475 1700 5475
 Wire Wire Line
-	1450 5325 1500 5325
+	1425 5275 1475 5275
 Wire Wire Line
-	1500 5325 1500 5275
+	1475 5275 1475 5225
 Wire Wire Line
-	1050 5925 1050 5975
+	1025 5875 1025 5925
 Wire Wire Line
-	2100 5725 2275 5725
+	2075 5675 2250 5675
 Wire Wire Line
-	2275 6125 2100 6125
+	2250 6075 2075 6075
 Wire Wire Line
-	2475 7025 2625 7025
+	2450 6975 2600 6975
 Wire Wire Line
-	2100 5725 2100 6125
+	2075 5675 2075 6075
 Wire Wire Line
-	1050 5975 1500 5975
+	1025 5925 1475 5925
 Wire Wire Line
-	1500 5975 1500 5725
+	1475 5925 1475 5675
 Wire Wire Line
-	1500 5725 1450 5725
-Connection ~ 1050 5975
+	1475 5675 1425 5675
+Connection ~ 1025 5925
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR035
 U 1 1 5A0E2A49
-P 2175 7125
-F 0 "#PWR035" H 2175 6875 50  0001 C CNN
-F 1 "GND" H 2175 6975 50  0000 C CNN
-F 2 "" H 2175 7125 50  0000 C CNN
-F 3 "" H 2175 7125 50  0000 C CNN
-	1    2175 7125
+P 2150 7075
+F 0 "#PWR035" H 2150 6825 50  0001 C CNN
+F 1 "GND" H 2150 6925 50  0000 C CNN
+F 2 "" H 2150 7075 50  0000 C CNN
+F 3 "" H 2150 7075 50  0000 C CNN
+	1    2150 7075
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2625 6525 2575 6525
+	2600 6475 2550 6475
 Wire Wire Line
-	2575 6525 2575 6625
-Connection ~ 2575 6625
-Text Label 2250 5425 0    60   ~ 0
+	2550 6475 2550 6575
+Connection ~ 2550 6575
+Text Label 2225 5375 0    60   ~ 0
 D-
-Text Label 2250 5525 0    60   ~ 0
+Text Label 2225 5475 0    60   ~ 0
 D+
-Connection ~ 2525 4425
+Connection ~ 2500 4375
 Wire Wire Line
-	4225 6525 4250 6525
+	4200 6475 4225 6475
 $Comp
 L vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J6
 U 1 1 5A0E2A70
@@ -479,13 +478,13 @@ Text Label 5575 6800 2    55   ~ 0
 ~RESET
 Text Label 5575 6700 2    55   ~ 0
 SCK
-Text Label 1775 4775 2    35   ~ 0
+Text Label 2475 4725 2    35   ~ 0
 ~RESET
-Text Label 4225 4525 0    55   ~ 0
+Text Label 4200 4475 0    55   ~ 0
 MOSI
-Text Label 4225 4625 0    55   ~ 0
+Text Label 4200 4575 0    55   ~ 0
 MISO
-Text Label 4225 4425 0    55   ~ 0
+Text Label 4200 4375 0    55   ~ 0
 SCK
 Wire Wire Line
 	6075 6800 6125 6800
@@ -521,14 +520,14 @@ Text Label 5575 6600 2    55   ~ 0
 MISO
 Text Label 6075 6700 0    55   ~ 0
 MOSI
-Text Label 1450 5425 0    60   ~ 0
+Text Label 1425 5375 0    60   ~ 0
 Dd-
 Wire Wire Line
-	1450 5425 1525 5425
-Text Label 1450 5525 0    60   ~ 0
+	1425 5375 1500 5375
+Text Label 1425 5475 0    60   ~ 0
 Dd+
 Wire Wire Line
-	1450 5525 1525 5525
+	1425 5475 1500 5475
 $Comp
 L vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue J8
 U 1 1 5A14BD9C
@@ -577,7 +576,7 @@ U 1 1 5A17DCD0
 P 6250 3225
 F 0 "SW25" H 6250 3510 50  0000 C CNN
 F 1 "Socket" H 6250 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6250 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 6250 3425 50  0001 C CNN
 F 3 "" H 6250 3425 50  0001 C CNN
 	1    6250 3225
 	1    0    0    -1  
@@ -644,7 +643,7 @@ U 1 1 5A17DCF7
 P 7250 3225
 F 0 "SW26" H 7250 3510 50  0000 C CNN
 F 1 "Socket" H 7250 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7250 3425 50  0001 C CNN
 F 3 "" H 7250 3425 50  0001 C CNN
 	1    7250 3225
 	1    0    0    -1  
@@ -655,7 +654,7 @@ U 1 1 5A17DCFE
 P 7850 3225
 F 0 "SW27" H 7850 3510 50  0000 C CNN
 F 1 "Socket" H 7850 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7850 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7850 3425 50  0001 C CNN
 F 3 "" H 7850 3425 50  0001 C CNN
 	1    7850 3225
 	1    0    0    -1  
@@ -666,7 +665,7 @@ U 1 1 5A17DD05
 P 8850 3225
 F 0 "SW28" H 8850 3510 50  0000 C CNN
 F 1 "Socket" H 8850 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8850 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 8850 3425 50  0001 C CNN
 F 3 "" H 8850 3425 50  0001 C CNN
 	1    8850 3225
 	1    0    0    -1  
@@ -677,7 +676,7 @@ U 1 1 5A17DD0C
 P 9450 3225
 F 0 "SW29" H 9450 3510 50  0000 C CNN
 F 1 "Socket" H 9450 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 9450 3425 50  0001 C CNN
 F 3 "" H 9450 3425 50  0001 C CNN
 	1    9450 3225
 	1    0    0    -1  
@@ -688,7 +687,7 @@ U 1 1 5A17DD13
 P 10450 3225
 F 0 "SW30" H 10450 3510 50  0000 C CNN
 F 1 "Socket" H 10450 3419 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10450 3425 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 10450 3425 50  0001 C CNN
 F 3 "" H 10450 3425 50  0001 C CNN
 	1    10450 3225
 	1    0    0    -1  
@@ -710,7 +709,7 @@ U 1 1 5A17DD21
 P 6250 3875
 F 0 "SW31" H 6250 4160 50  0000 C CNN
 F 1 "Socket" H 6250 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6250 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 6250 4075 50  0001 C CNN
 F 3 "" H 6250 4075 50  0001 C CNN
 	1    6250 3875
 	1    0    0    -1  
@@ -765,7 +764,7 @@ U 1 1 5A17DD42
 P 7250 3875
 F 0 "SW32" H 7250 4160 50  0000 C CNN
 F 1 "Socket" H 7250 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7250 4075 50  0001 C CNN
 F 3 "" H 7250 4075 50  0001 C CNN
 	1    7250 3875
 	1    0    0    -1  
@@ -776,7 +775,7 @@ U 1 1 5A17DD49
 P 7850 3875
 F 0 "SW33" H 7850 4160 50  0000 C CNN
 F 1 "Socket" H 7850 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7850 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7850 4075 50  0001 C CNN
 F 3 "" H 7850 4075 50  0001 C CNN
 	1    7850 3875
 	1    0    0    -1  
@@ -787,7 +786,7 @@ U 1 1 5A17DD50
 P 8850 3875
 F 0 "SW34" H 8850 4160 50  0000 C CNN
 F 1 "Socket" H 8850 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8850 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 8850 4075 50  0001 C CNN
 F 3 "" H 8850 4075 50  0001 C CNN
 	1    8850 3875
 	1    0    0    -1  
@@ -798,7 +797,7 @@ U 1 1 5A17DD57
 P 9450 3875
 F 0 "SW35" H 9450 4160 50  0000 C CNN
 F 1 "Socket" H 9450 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 9450 4075 50  0001 C CNN
 F 3 "" H 9450 4075 50  0001 C CNN
 	1    9450 3875
 	1    0    0    -1  
@@ -809,7 +808,7 @@ U 1 1 5A17DD5E
 P 10450 3875
 F 0 "SW36" H 10450 4160 50  0000 C CNN
 F 1 "Socket" H 10450 4069 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10450 4075 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 10450 4075 50  0001 C CNN
 F 3 "" H 10450 4075 50  0001 C CNN
 	1    10450 3875
 	1    0    0    -1  
@@ -831,7 +830,7 @@ U 1 1 5A17DD6C
 P 6250 4525
 F 0 "SW37" H 6250 4810 50  0000 C CNN
 F 1 "Socket" H 6250 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6250 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 6250 4725 50  0001 C CNN
 F 3 "" H 6250 4725 50  0001 C CNN
 	1    6250 4525
 	1    0    0    -1  
@@ -886,7 +885,7 @@ U 1 1 5A17DD8D
 P 7250 4525
 F 0 "SW38" H 7250 4810 50  0000 C CNN
 F 1 "Socket" H 7250 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7250 4725 50  0001 C CNN
 F 3 "" H 7250 4725 50  0001 C CNN
 	1    7250 4525
 	1    0    0    -1  
@@ -897,7 +896,7 @@ U 1 1 5A17DD94
 P 7850 4525
 F 0 "SW39" H 7850 4810 50  0000 C CNN
 F 1 "Socket" H 7850 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7850 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7850 4725 50  0001 C CNN
 F 3 "" H 7850 4725 50  0001 C CNN
 	1    7850 4525
 	1    0    0    -1  
@@ -908,7 +907,7 @@ U 1 1 5A17DD9B
 P 8850 4525
 F 0 "SW40" H 8850 4810 50  0000 C CNN
 F 1 "Socket" H 8850 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8850 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 8850 4725 50  0001 C CNN
 F 3 "" H 8850 4725 50  0001 C CNN
 	1    8850 4525
 	1    0    0    -1  
@@ -919,7 +918,7 @@ U 1 1 5A17DDA2
 P 9450 4525
 F 0 "SW41" H 9450 4810 50  0000 C CNN
 F 1 "Socket" H 9450 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 9450 4725 50  0001 C CNN
 F 3 "" H 9450 4725 50  0001 C CNN
 	1    9450 4525
 	1    0    0    -1  
@@ -930,7 +929,7 @@ U 1 1 5A17DDA9
 P 10450 4525
 F 0 "SW42" H 10450 4810 50  0000 C CNN
 F 1 "Socket" H 10450 4719 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10450 4725 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 10450 4725 50  0001 C CNN
 F 3 "" H 10450 4725 50  0001 C CNN
 	1    10450 4525
 	1    0    0    -1  
@@ -952,7 +951,7 @@ U 1 1 5A17DDB7
 P 6250 5175
 F 0 "SW43" H 6250 5460 50  0000 C CNN
 F 1 "Socket-overlap" H 6250 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 6250 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 6250 5375 50  0001 C CNN
 F 3 "" H 6250 5375 50  0001 C CNN
 	1    6250 5175
 	1    0    0    -1  
@@ -1007,7 +1006,7 @@ U 1 1 5A17DDD8
 P 7250 5175
 F 0 "SW44" H 7250 5460 50  0000 C CNN
 F 1 "Socket" H 7250 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7250 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7250 5375 50  0001 C CNN
 F 3 "" H 7250 5375 50  0001 C CNN
 	1    7250 5175
 	1    0    0    -1  
@@ -1018,7 +1017,7 @@ U 1 1 5A17DDDF
 P 7850 5175
 F 0 "SW45" H 7850 5460 50  0000 C CNN
 F 1 "Socket" H 7850 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 7850 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 7850 5375 50  0001 C CNN
 F 3 "" H 7850 5375 50  0001 C CNN
 	1    7850 5175
 	1    0    0    -1  
@@ -1029,7 +1028,7 @@ U 1 1 5A17DDE6
 P 8850 5175
 F 0 "SW46" H 8850 5460 50  0000 C CNN
 F 1 "Socket" H 8850 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 8850 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 8850 5375 50  0001 C CNN
 F 3 "" H 8850 5375 50  0001 C CNN
 	1    8850 5175
 	1    0    0    -1  
@@ -1040,7 +1039,7 @@ U 1 1 5A17DDED
 P 9450 5175
 F 0 "SW47" H 9450 5460 50  0000 C CNN
 F 1 "Socket" H 9450 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 9450 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 9450 5375 50  0001 C CNN
 F 3 "" H 9450 5375 50  0001 C CNN
 	1    9450 5175
 	1    0    0    -1  
@@ -1051,7 +1050,7 @@ U 1 1 5A17DDF4
 P 10450 5175
 F 0 "SW48" H 10450 5460 50  0000 C CNN
 F 1 "Socket" H 10450 5369 50  0000 C CNN
-F 2 "CherryMX:Kailh-socket" H 10450 5375 50  0001 C CNN
+F 2 "sockets:Kailh-socket" H 10450 5375 50  0001 C CNN
 F 3 "" H 10450 5375 50  0001 C CNN
 	1    10450 5175
 	1    0    0    -1  
@@ -1075,37 +1074,35 @@ Connection ~ 10700 4525
 Connection ~ 10700 3875
 Connection ~ 10700 3225
 Wire Wire Line
-	1775 4775 1975 4775
+	2450 6975 2450 7075
 Wire Wire Line
-	2475 7025 2475 7125
+	2450 6875 2450 6975
 Wire Wire Line
-	2475 6925 2475 7025
+	2450 6775 2450 6875
 Wire Wire Line
-	2475 6825 2475 6925
+	2450 6675 2450 6775
 Wire Wire Line
-	2475 6725 2475 6825
+	2075 4475 2075 4575
 Wire Wire Line
-	2100 4525 2100 4625
+	2075 4575 2075 5075
 Wire Wire Line
-	2100 4625 2100 5125
+	2075 5075 2075 5175
 Wire Wire Line
-	2100 5125 2100 5225
+	1950 4725 2600 4725
 Wire Wire Line
-	1975 4775 2625 4775
+	2500 4275 2500 4375
 Wire Wire Line
-	2525 4325 2525 4425
+	2450 6575 2450 6675
 Wire Wire Line
-	2475 6625 2475 6725
+	2525 6075 2600 6075
 Wire Wire Line
-	2550 6125 2625 6125
+	2525 5675 2600 5675
 Wire Wire Line
-	2550 5725 2625 5725
+	2075 6075 2075 6150
 Wire Wire Line
-	2100 6125 2100 6200
+	1025 5925 1025 6000
 Wire Wire Line
-	1050 5975 1050 6050
-Wire Wire Line
-	2575 6625 2625 6625
+	2550 6575 2600 6575
 Wire Wire Line
 	6750 3475 8350 3475
 Wire Wire Line
@@ -1161,32 +1158,89 @@ Wire Wire Line
 $Comp
 L Device:D_Schottky_Small D26
 U 1 1 5A635F92
-P 2300 4425
-F 0 "D26" H 2300 4630 50  0000 C CNN
-F 1 "SS210ATR" H 2300 4539 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA" V 2300 4425 50  0001 C CNN
-F 3 "" V 2300 4425 50  0001 C CNN
-	1    2300 4425
+P 2275 4375
+F 0 "D26" H 2275 4580 50  0000 C CNN
+F 1 "SS210ATR" H 2275 4489 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA" V 2275 4375 50  0001 C CNN
+F 3 "" V 2275 4375 50  0001 C CNN
+	1    2275 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 4425 2525 4425
+	2375 4375 2500 4375
 Wire Wire Line
-	2200 4425 2100 4425
-Connection ~ 2100 4425
+	2175 4375 2075 4375
+Connection ~ 2075 4375
 Wire Wire Line
-	2100 4425 2100 4525
+	2075 4375 2075 4475
 Wire Wire Line
-	2100 4525 2625 4525
+	2075 4475 2600 4475
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR010
 U 1 1 5B5311D3
-P 2175 6925
-F 0 "#PWR010" H 2175 6775 50  0001 C CNN
-F 1 "VCC" H 2175 7075 50  0000 C CNN
-F 2 "" H 2175 6925 50  0000 C CNN
-F 3 "" H 2175 6925 50  0000 C CNN
-	1    2175 6925
+P 2150 6875
+F 0 "#PWR010" H 2150 6725 50  0001 C CNN
+F 1 "VCC" H 2150 7025 50  0000 C CNN
+F 2 "" H 2150 6875 50  0000 C CNN
+F 3 "" H 2150 6875 50  0000 C CNN
+	1    2150 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5B54699A
+P 1625 4725
+F 0 "J4" H 1705 4717 50  0000 L CNN
+F 1 "reset" H 1705 4626 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1625 4725 50  0001 C CNN
+F 3 "~" H 1625 4725 50  0001 C CNN
+	1    1625 4725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 4725 1950 4725
+Connection ~ 1950 4725
+Wire Wire Line
+	1825 4825 1900 4825
+Wire Wire Line
+	1900 4825 1900 4875
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR016
+U 1 1 5B56EBA6
+P 1900 4875
+F 0 "#PWR016" H 1900 4625 50  0001 C CNN
+F 1 "GND" H 1900 4725 50  0000 C CNN
+F 2 "" H 1900 4875 50  0000 C CNN
+F 3 "" H 1900 4875 50  0000 C CNN
+	1    1900 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 4625 4675 4675
+Wire Wire Line
+	4625 4675 4675 4675
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R12
+U 1 1 5B517DC9
+P 4525 4675
+F 0 "R12" H 4555 4695 50  0000 L CNN
+F 1 "4k7" H 4555 4635 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4525 4675 50  0001 C CNN
+F 3 "" H 4525 4675 50  0000 C CNN
+	1    4525 4675
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 4675 4425 4675
+$Comp
+L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR028
+U 1 1 5B523FC0
+P 4675 4625
+F 0 "#PWR028" H 4675 4475 50  0001 C CNN
+F 1 "VCC" H 4675 4775 50  0000 C CNN
+F 2 "" H 4675 4625 50  0000 C CNN
+F 3 "" H 4675 4625 50  0000 C CNN
+	1    4675 4625
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

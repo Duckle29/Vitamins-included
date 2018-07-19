@@ -49,6 +49,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R8","22R","R_0603",180.978000,-4.960000,180.000000,bottom
 "R9","4k7","R_0603",159.134000,-5.595000,0.000000,bottom
 "R10","200R","R_0603",162.182000,-26.423000,0.000000,bottom
+"R11","4k7","R_0603_1608Metric",49.500000,-13.600000,0.000000,bottom
+"R12","4k7","R_0603_1608Metric",145.150000,-13.750000,180.000000,bottom
 "SW1","Socket","Kailh-socket",9.500000,-16.850000,0.000000,bottom
 "SW2","Socket","Kailh-socket",28.550000,-16.850000,0.000000,bottom
 "SW3","Socket","Kailh-socket",47.600000,-16.850000,0.000000,bottom
@@ -72,8 +74,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW21","Socket","Kailh-socket",47.600000,-74.000000,180.000000,bottom
 "SW22","Socket","Kailh-socket",66.650000,-74.000000,180.000000,bottom
 "SW23","Socket","Kailh-socket",85.700000,-74.000000,180.000000,bottom
-"SW24","Socket-overlap","Kailh-socket",95.225000,-74.000000,0.000000,bottom
 "SW24","Socket","Kailh-socket",104.750000,-74.000000,180.000000,bottom
+"SW24","Socket-overlap","Kailh-socket",95.225000,-74.000000,0.000000,bottom
 "SW25","Socket","Kailh-socket",125.750000,-16.850000,0.000000,bottom
 "SW26","Socket","Kailh-socket",144.800000,-16.850000,0.000000,bottom
 "SW27","Socket","Kailh-socket",163.850000,-16.850000,0.000000,bottom
@@ -92,8 +94,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW40","Socket","Kailh-socket",182.900000,-54.950000,0.000000,bottom
 "SW41","Socket","Kailh-socket",201.950000,-54.950000,0.000000,bottom
 "SW42","Socket","Kailh-socket",221.000000,-54.950000,0.000000,bottom
-"SW43","Socket","Kailh-socket",135.275000,-74.000000,0.000000,bottom
 "SW43","Socket-overlap","Kailh-socket",125.750000,-74.000000,180.000000,bottom
+"SW43","Socket","Kailh-socket",135.275000,-74.000000,0.000000,bottom
 "SW44","Socket","Kailh-socket",144.800000,-74.000000,180.000000,bottom
 "SW45","Socket","Kailh-socket",163.850000,-74.000000,180.000000,bottom
 "SW46","Socket","Kailh-socket",182.900000,-74.000000,180.000000,bottom
