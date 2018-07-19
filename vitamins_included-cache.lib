@@ -45,11 +45,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:ATMega32U4-RESCUE-lets_split_panel
+# vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:ATMega32U4-RESCUE-lets_split_panel U 0 40 Y Y 1 F N
+DEF vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 800 60 H V L CNN
-F1 "lets_split_panel-rescue:ATMega32U4-RESCUE-lets_split_panel" -100 -2200 60 H V L CNN
+F1 "vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue" -100 -2200 60 H V L CNN
 F2 "" 1700 950 60 H V C CNN
 F3 "" 1700 950 60 H V C CNN
 DRAW
@@ -102,11 +102,11 @@ X GND TAB -250 -1550 150 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel
+# vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel C 0 10 N N 1 F N
+DEF vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "lets_split_panel-rescue:C_Small-RESCUE-lets_split_panel" 10 -80 50 H V L CNN
+F1 "vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -120,11 +120,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Conn_01x01-RESCUE-lets_split_panel
+# vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Conn_01x01-RESCUE-lets_split_panel J 0 40 Y N 1 F N
+DEF vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "lets_split_panel-rescue:Conn_01x01-RESCUE-lets_split_panel" 0 -100 50 H V C CNN
+F1 "vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -142,11 +142,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel
+# vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel J 0 40 Y N 1 F N
+DEF vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "lets_split_panel-rescue:Conn_01x02-RESCUE-lets_split_panel" 0 -200 50 H V C CNN
+F1 "vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -166,11 +166,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Conn_01x03-RESCUE-lets_split_panel
+# vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Conn_01x03-RESCUE-lets_split_panel J 0 40 Y N 1 F N
+DEF vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "lets_split_panel-rescue:Conn_01x03-RESCUE-lets_split_panel" 0 -200 50 H V C CNN
+F1 "vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -192,11 +192,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Conn_01x04-RESCUE-lets_split_panel
+# vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Conn_01x04-RESCUE-lets_split_panel J 0 40 Y N 1 F N
+DEF vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "lets_split_panel-rescue:Conn_01x04-RESCUE-lets_split_panel" 0 -300 50 H V C CNN
+F1 "vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel
+# vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel J 0 40 Y N 1 F N
+DEF vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "lets_split_panel-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel" 50 -200 50 H V C CNN
+F1 "vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -252,11 +252,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Crystal-RESCUE-lets_split_panel
+# vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Crystal-RESCUE-lets_split_panel Y 0 40 N N 1 F N
+DEF vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "lets_split_panel-rescue:Crystal-RESCUE-lets_split_panel" 0 -150 50 H V C CNN
+F1 "vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -273,11 +273,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Fiducial-RESCUE-lets_split_panel
+# vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Fiducial-RESCUE-lets_split_panel FID 0 40 Y Y 1 F N
+DEF vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue FID 0 40 Y Y 1 F N
 F0 "FID" 0 -150 60 H V C CNN
-F1 "lets_split_panel-rescue:Fiducial-RESCUE-lets_split_panel" 0 150 60 H V C CNN
+F1 "vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -287,11 +287,11 @@ S 0 100 0 -100 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:GND-RESCUE-lets_split_panel
+# vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:GND-RESCUE-lets_split_panel #PWR 0 0 Y Y 1 F P
+DEF vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "lets_split_panel-rescue:GND-RESCUE-lets_split_panel" 0 -150 50 H V C CNN
+F1 "vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -300,11 +300,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:Jumper-RESCUE-lets_split_panel
+# vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:Jumper-RESCUE-lets_split_panel JP 0 30 Y N 1 F N
+DEF vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
-F1 "lets_split_panel-rescue:Jumper-RESCUE-lets_split_panel" 0 -80 50 H V C CNN
+F1 "vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -316,11 +316,11 @@ X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel
+# vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel R 0 10 N N 1 F N
+DEF vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "lets_split_panel-rescue:R_Small-RESCUE-lets_split_panel" 30 -40 50 H V L CNN
+F1 "vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -333,11 +333,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel
+# vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW 0 40 N N 1 F N
+DEF vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel" 0 -60 50 H V C CNN
+F1 "vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -350,11 +350,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel
+# vitamins_included-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel P 0 40 Y Y 1 F N
+DEF vitamins_included-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel-lets_split_panel-rescue P 0 40 Y Y 1 F N
 F0 "P" 325 -125 50 H V C CNN
-F1 "lets_split_panel-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel" 0 200 50 H V C CNN
+F1 "vitamins_included-rescue:USB_OTG-RESCUE-lets_split-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 200 50 H V C CNN
 F2 "" -50 -100 50 V V C CNN
 F3 "" -50 -100 50 V V C CNN
 $FPLIST
@@ -376,11 +376,11 @@ X shield 6 400 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel
+# vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel #PWR 0 0 Y Y 1 F P
+DEF vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lets_split_panel-rescue:VBUS-RESCUE-lets_split_panel" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -391,11 +391,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# lets_split_panel-rescue:VCC-RESCUE-lets_split_panel
+# vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR 0 0 Y Y 1 F P
+DEF vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "lets_split_panel-rescue:VCC-RESCUE-lets_split_panel" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

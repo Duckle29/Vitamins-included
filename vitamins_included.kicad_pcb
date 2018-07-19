@@ -5794,7 +5794,7 @@
   (gr_arc (start 228.5 11) (end 230.5 11) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5A3CEB5B))
   (gr_line (start 173.299 31.487128) (end 173.299 30.106) (layer F.SilkS) (width 0.2) (tstamp 5A3CEC2D))
   (dimension 230.5 (width 0.3) (layer Cmts.User)
-    (gr_text "230.500 mm" (at 115.25 85.35) (layer Cmts.User) (tstamp 5B5D2C12)
+    (gr_text "230.500 mm" (at 115.25 85.35) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 230.5 82) (xy 230.5 86.7)))
