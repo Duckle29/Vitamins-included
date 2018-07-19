@@ -951,7 +951,7 @@ L lets_split_panel-rescue:SW_Push-RESCUE-lets_split_panel SW43
 U 1 1 5A17DDB7
 P 6250 5175
 F 0 "SW43" H 6250 5460 50  0000 C CNN
-F 1 "Socket" H 6250 5369 50  0000 C CNN
+F 1 "Socket-overlap" H 6250 5369 50  0000 C CNN
 F 2 "CherryMX:Kailh-socket" H 6250 5375 50  0001 C CNN
 F 3 "" H 6250 5375 50  0001 C CNN
 	1    6250 5175
@@ -1179,10 +1179,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 4525 2625 4525
 $Comp
-L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR?
+L lets_split_panel-rescue:VCC-RESCUE-lets_split_panel #PWR010
 U 1 1 5B5311D3
 P 2175 6925
-F 0 "#PWR?" H 2175 6775 50  0001 C CNN
+F 0 "#PWR010" H 2175 6775 50  0001 C CNN
 F 1 "VCC" H 2175 7075 50  0000 C CNN
 F 2 "" H 2175 6925 50  0000 C CNN
 F 3 "" H 2175 6925 50  0000 C CNN
