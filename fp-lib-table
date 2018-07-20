@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name sockets)(type KiCad)(uri "$(KIPRJMOD)/footprints/sockets.pretty")(options "")(descr ""))
+  (lib (name UJ31-CH-31-SMT-TR)(type Legacy)(uri /home/mikkel/kicad/third-party-footprints/cui.pretty/UJ31-CH-31-SMT-TR.mod)(options "")(descr ""))
 )

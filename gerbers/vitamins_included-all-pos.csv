@@ -31,17 +31,19 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D22","BAV70","SOT-23",153.673000,-76.334000,270.000000,bottom
 "D23","BAV70","SOT-23",173.358000,-76.207000,270.000000,bottom
 "D24","BAV70","SOT-23",211.458000,-76.207000,270.000000,bottom
-"D25","SS210ATR","D_SMA",24.400000,-12.000000,0.000000,bottom
-"D26","SS210ATR","D_SMA",204.600000,-11.800000,0.000000,bottom
+"D25","SS210ATR","D_SMA",21.800000,-13.600000,0.000000,bottom
+"D26","SS210ATR","D_SMA",204.600000,-12.850000,0.000000,bottom
 "FID1","Fiducial","Fiducial_1mm_Dia_2mm_Outer",5.000000,-46.000000,0.000000,bottom
 "FID2","Fiducial","Fiducial_1mm_Dia_2mm_Outer",109.250000,-26.500000,0.000000,bottom
 "FID3","Fiducial","Fiducial_1mm_Dia_2mm_Outer",121.250000,-46.000000,0.000000,bottom
 "FID4","Fiducial","Fiducial_1mm_Dia_2mm_Outer",225.500000,-26.500000,0.000000,bottom
+"J9"," 12401598E4#2A ","USB_C_Receptacle_Amphenol_12401610E4-2A",29.600000,-4.350000,0.000000,bottom
+"J10"," 12401598E4#2A ","USB_C_Receptacle_Amphenol_12401610E4-2A",200.900000,-4.350000,0.000000,bottom
 "P4","SJ-43514-SMT","SJ-4351X-SMT",95.192500,-8.878000,270.000000,bottom
 "P8","SJ-43514-SMT","SJ-4351X-SMT",135.307500,-8.878000,270.000000,bottom
 "R1","4k7","R_0603",75.146500,-33.916000,270.000000,bottom
 "R2","4k7","R_0603",77.559500,-33.916000,270.000000,bottom
-"R3","200R","R_0603",57.684000,-20.200000,270.000000,bottom
+"R3","220R","R_0603",57.684000,-20.200000,270.000000,bottom
 "R4","22R","R_0603",50.612500,-5.404500,0.000000,bottom
 "R5","22R","R_0603",50.612500,-3.880500,0.000000,bottom
 "R6","4k7","R_0603",61.979000,-5.087000,0.000000,bottom
@@ -94,8 +96,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW40","Socket","Kailh-socket",182.900000,-54.950000,0.000000,bottom
 "SW41","Socket","Kailh-socket",201.950000,-54.950000,0.000000,bottom
 "SW42","Socket","Kailh-socket",221.000000,-54.950000,0.000000,bottom
-"SW43","Socket-overlap","Kailh-socket",125.750000,-74.000000,180.000000,bottom
 "SW43","Socket","Kailh-socket",135.275000,-74.000000,0.000000,bottom
+"SW43","Socket-overlap","Kailh-socket",125.750000,-74.000000,180.000000,bottom
 "SW44","Socket","Kailh-socket",144.800000,-74.000000,180.000000,bottom
 "SW45","Socket","Kailh-socket",163.850000,-74.000000,180.000000,bottom
 "SW46","Socket","Kailh-socket",182.900000,-74.000000,180.000000,bottom
