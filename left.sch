@@ -1150,7 +1150,7 @@ L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-resc
 U 1 1 5A1776DE
 P 10750 3250
 F 0 "SW24" H 10750 3535 50  0000 C CNN
-F 1 "Socket-overlap" H 10750 3444 50  0000 C CNN
+F 1 "Socket" H 10750 3444 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 10750 3450 50  0001 C CNN
 F 3 "" H 10750 3450 50  0001 C CNN
 	1    10750 3250
@@ -1321,17 +1321,15 @@ F 3 "" H 2725 4600 50  0000 C CNN
 	1    2725 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5725 4400 5725 4450
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR024
 U 1 1 5B57FD0A
-P 5725 4450
-F 0 "#PWR024" H 5725 4200 50  0001 C CNN
-F 1 "GND" H 5725 4300 50  0000 C CNN
-F 2 "" H 5725 4450 50  0000 C CNN
-F 3 "" H 5725 4450 50  0000 C CNN
-	1    5725 4450
+P 5725 4575
+F 0 "#PWR024" H 5725 4325 50  0001 C CNN
+F 1 "GND" H 5725 4425 50  0000 C CNN
+F 2 "" H 5725 4575 50  0000 C CNN
+F 3 "" H 5725 4575 50  0000 C CNN
+	1    5725 4575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1340,8 +1338,8 @@ $Comp
 L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R11
 U 1 1 5B59BDE8
 P 5575 4400
-F 0 "R11" H 5605 4420 50  0000 L CNN
-F 1 "4k7" H 5605 4360 50  0000 L CNN
+F 0 "R11" H 5600 4425 50  0000 L CNN
+F 1 "4k7" H 5600 4350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5575 4400 50  0001 C CNN
 F 3 "" H 5575 4400 50  0000 C CNN
 	1    5575 4400
@@ -1418,4 +1416,24 @@ Wire Wire Line
 Connection ~ 925  7150
 Wire Wire Line
 	925  7150 1025 7150
+Wire Wire Line
+	5175 4500 5475 4500
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R13
+U 1 1 5B569B84
+P 5575 4500
+F 0 "R13" H 5425 4525 50  0000 L CNN
+F 1 "4k7" H 5400 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5575 4500 50  0001 C CNN
+F 3 "" H 5575 4500 50  0000 C CNN
+	1    5575 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5725 4400 5725 4500
+Wire Wire Line
+	5675 4500 5725 4500
+Connection ~ 5725 4500
+Wire Wire Line
+	5725 4500 5725 4575
 $EndSCHEMATC

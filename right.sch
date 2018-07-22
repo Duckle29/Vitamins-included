@@ -900,7 +900,7 @@ L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-resc
 U 1 1 5A17DDB7
 P 6250 3000
 F 0 "SW43" H 6250 3285 50  0000 C CNN
-F 1 "Socket-overlap" H 6250 3194 50  0000 C CNN
+F 1 "Socket" H 6250 3194 50  0000 C CNN
 F 2 "sockets:Kailh-socket" H 6250 3200 50  0001 C CNN
 F 3 "" H 6250 3200 50  0001 C CNN
 	1    6250 3000
@@ -1284,4 +1284,32 @@ Wire Wire Line
 Connection ~ 1225 7200
 Wire Wire Line
 	1225 7200 1325 7200
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R14
+U 1 1 5B5A095B
+P 5425 4550
+F 0 "R14" H 5275 4575 50  0000 L CNN
+F 1 "4k7" H 5250 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5425 4550 50  0001 C CNN
+F 3 "" H 5425 4550 50  0000 C CNN
+	1    5425 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 4550 5325 4550
+Wire Wire Line
+	5525 4550 5575 4550
+Wire Wire Line
+	5575 4550 5575 4600
+$Comp
+L power:GND #PWR033
+U 1 1 5B5B9F91
+P 5575 4600
+F 0 "#PWR033" H 5575 4350 50  0001 C CNN
+F 1 "GND" H 5580 4427 50  0000 C CNN
+F 2 "" H 5575 4600 50  0001 C CNN
+F 3 "" H 5575 4600 50  0001 C CNN
+	1    5575 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
