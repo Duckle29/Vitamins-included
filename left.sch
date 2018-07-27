@@ -109,7 +109,7 @@ P 1650 1275
 AR Path="/59DDE6F8" Ref="P3"  Part="1" 
 AR Path="/5A0DE9BD/59DDE6F8" Ref="P3"  Part="1" 
 F 0 "P3" H 1650 1475 50  0000 C CNN
-F 1 ">WS2812" V 1750 1275 50  0000 C CNN
+F 1 "WS2812" V 1750 1275 50  0000 C CNN
 F 2 "Wirepads:SMD_PAD_1x03_Pitch2.54mm" H 1650 1275 50  0001 C CNN
 F 3 "" H 1650 1275 50  0000 C CNN
 	1    1650 1275
@@ -654,7 +654,7 @@ L vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-r
 U 1 1 5A14B17F
 P 2100 1275
 F 0 "J7" H 2020 1050 50  0000 C CNN
-F 1 "WS2812>" H 2020 1141 50  0000 C CNN
+F 1 "Sig" H 2020 1141 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2100 1275 50  0001 C CNN
 F 3 "~" H 2100 1275 50  0001 C CNN
 	1    2100 1275
@@ -1354,8 +1354,8 @@ L Connector:USB_C_Receptacle J9
 U 1 1 5B5A4B97
 P 1125 5500
 F 0 "J9" H 1230 7067 50  0000 C CNN
-F 1 " 12401598E4#2A " H 1230 6976 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1275 5500 50  0001 C CNN
+F 1 "UTC16-G" H 1230 6976 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1275 5500 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1275 5500 50  0001 C CNN
 	1    1125 5500
 	1    0    0    -1  

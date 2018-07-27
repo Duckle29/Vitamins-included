@@ -87,7 +87,7 @@ L vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-r
 U 1 1 5A0E2964
 P 1525 1125
 F 0 "P6" H 1525 1325 50  0000 C CNN
-F 1 ">WS2812" V 1625 1125 50  0000 C CNN
+F 1 "WS2812" V 1625 1125 50  0000 C CNN
 F 2 "Wirepads:SMD_PAD_1x03_Pitch2.54mm" H 1525 1125 50  0001 C CNN
 F 3 "" H 1525 1125 50  0000 C CNN
 	1    1525 1125
@@ -483,7 +483,7 @@ L vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-r
 U 1 1 5A14BD9C
 P 1875 1125
 F 0 "J8" H 1795 900 50  0000 C CNN
-F 1 "WS2812>" H 1795 991 50  0000 C CNN
+F 1 "Sig" H 1795 991 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 1875 1125 50  0001 C CNN
 F 3 "~" H 1875 1125 50  0001 C CNN
 	1    1875 1125
@@ -1222,8 +1222,8 @@ L Connector:USB_C_Receptacle J10
 U 1 1 5B69FA86
 P 1425 5550
 F 0 "J10" H 1530 7117 50  0000 C CNN
-F 1 " 12401598E4#2A " H 1530 7026 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1575 5550 50  0001 C CNN
+F 1 "UTC16-G" H 1530 7026 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1575 5550 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1575 5550 50  0001 C CNN
 	1    1425 5550
 	1    0    0    -1  
