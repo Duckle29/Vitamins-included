@@ -37,21 +37,21 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FID2","Fiducial","Fiducial_1mm_Dia_2mm_Outer",109.250000,-26.500000,0.000000,bottom
 "FID3","Fiducial","Fiducial_1mm_Dia_2mm_Outer",121.250000,-46.000000,0.000000,bottom
 "FID4","Fiducial","Fiducial_1mm_Dia_2mm_Outer",225.500000,-26.500000,0.000000,bottom
-"J9"," 12401598E4#2A ","USB_C_Receptacle_Amphenol_12401610E4-2A",29.600000,-4.350000,0.000000,bottom
-"J10"," 12401598E4#2A ","USB_C_Receptacle_Amphenol_12401610E4-2A",200.900000,-4.350000,0.000000,bottom
+"J9","UTC16-G","USB_C_Receptacle_Palconn_UTC16-G",29.600000,-4.500000,0.000000,bottom
+"J10","UTC16-G","USB_C_Receptacle_Palconn_UTC16-G",200.900000,-4.500000,0.000000,bottom
 "P4","SJ-43514-SMT","SJ-4351X-SMT",95.192500,-8.878000,270.000000,bottom
 "P8","SJ-43514-SMT","SJ-4351X-SMT",135.307500,-8.878000,270.000000,bottom
 "R1","4k7","R_0603_1608Metric",75.146500,-33.916000,270.000000,bottom
 "R2","4k7","R_0603_1608Metric",77.559500,-33.916000,270.000000,bottom
 "R3","220R","R_0603_1608Metric",57.684000,-20.200000,270.000000,bottom
-"R4","22R","R_0603_1608Metric",50.612500,-5.404500,-0.000000,bottom
-"R5","22R","R_0603_1608Metric",50.612500,-3.880500,-0.000000,bottom
-"R6","4k7","R_0603_1608Metric",61.979000,-5.087000,-0.000000,bottom
+"R4","22R","R_0603_1608Metric",50.612500,-5.404500,0.000000,bottom
+"R5","22R","R_0603_1608Metric",50.612500,-3.880500,0.000000,bottom
+"R6","4k7","R_0603_1608Metric",61.979000,-5.087000,0.000000,bottom
 "R7","22R","R_0603_1608Metric",180.978000,-3.436000,180.000000,bottom
 "R8","22R","R_0603_1608Metric",180.978000,-4.960000,180.000000,bottom
-"R9","4k7","R_0603_1608Metric",159.134000,-5.595000,-0.000000,bottom
-"R10","220R","R_0603_1608Metric",162.182000,-26.423000,-0.000000,bottom
-"R11","220R","R_0603_1608Metric",49.500000,-13.600000,-0.000000,bottom
+"R9","4k7","R_0603_1608Metric",159.134000,-5.595000,0.000000,bottom
+"R10","220R","R_0603_1608Metric",162.182000,-26.423000,0.000000,bottom
+"R11","220R","R_0603_1608Metric",49.500000,-13.600000,0.000000,bottom
 "R12","220R","R_0603_1608Metric",145.150000,-13.750000,180.000000,bottom
 "R13","220R","R_0603_1608Metric",50.700000,-15.800000,90.000000,bottom
 "R14","220R","R_0603_1608Metric",155.100000,-22.600000,270.000000,bottom
@@ -78,8 +78,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW21","Socket","Kailh-socket",47.600000,-74.000000,180.000000,bottom
 "SW22","Socket","Kailh-socket",66.650000,-74.000000,180.000000,bottom
 "SW23","Socket","Kailh-socket",85.700000,-74.000000,180.000000,bottom
-"SW24","Socket","Kailh-socket",104.750000,-74.000000,180.000000,bottom
 "SW24","Socket","Kailh-socket",95.225000,-74.000000,0.000000,bottom
+"SW24","Socket","Kailh-socket",104.750000,-74.000000,180.000000,bottom
 "SW25","Socket","Kailh-socket",125.750000,-16.850000,0.000000,bottom
 "SW26","Socket","Kailh-socket",144.800000,-16.850000,0.000000,bottom
 "SW27","Socket","Kailh-socket",163.850000,-16.850000,0.000000,bottom
@@ -98,8 +98,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW40","Socket","Kailh-socket",182.900000,-54.950000,0.000000,bottom
 "SW41","Socket","Kailh-socket",201.950000,-54.950000,0.000000,bottom
 "SW42","Socket","Kailh-socket",221.000000,-54.950000,0.000000,bottom
-"SW43","Socket","Kailh-socket",125.750000,-74.000000,180.000000,bottom
 "SW43","Socket","Kailh-socket",135.275000,-74.000000,0.000000,bottom
+"SW43","Socket","Kailh-socket",125.750000,-74.000000,180.000000,bottom
 "SW44","Socket","Kailh-socket",144.800000,-74.000000,180.000000,bottom
 "SW45","Socket","Kailh-socket",163.850000,-74.000000,180.000000,bottom
 "SW46","Socket","Kailh-socket",182.900000,-74.000000,180.000000,bottom
