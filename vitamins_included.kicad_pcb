@@ -444,9 +444,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -718,9 +718,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -937,9 +937,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -983,9 +983,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -1440,9 +1440,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2204,9 +2204,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2244,9 +2244,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2284,9 +2284,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2520,9 +2520,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2663,9 +2663,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2703,9 +2703,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2743,9 +2743,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2783,9 +2783,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2823,9 +2823,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2863,9 +2863,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2903,9 +2903,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2943,9 +2943,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -2983,9 +2983,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3029,9 +3029,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3069,9 +3069,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3109,9 +3109,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3149,9 +3149,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3297,9 +3297,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3337,9 +3337,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3377,9 +3377,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3574,9 +3574,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3614,9 +3614,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3654,9 +3654,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3694,9 +3694,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3734,9 +3734,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3915,9 +3915,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3955,9 +3955,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -3995,9 +3995,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4035,9 +4035,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4075,9 +4075,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4244,9 +4244,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4284,9 +4284,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4324,9 +4324,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4364,9 +4364,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4404,9 +4404,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -4444,9 +4444,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5283,9 +5283,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5323,9 +5323,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5363,9 +5363,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5409,9 +5409,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5455,9 +5455,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5495,9 +5495,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5535,9 +5535,9 @@
     (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0 180) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
@@ -5683,9 +5683,9 @@
     (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 0 0) (size 4 4) (drill 4) (layers *.Cu *.Mask B.SilkS))
     (model :3DFiles:KailhMXsocket.step
-      (offset (xyz -0.6999999894870549 3.899999941427878 -1.949999970713938))
+      (offset (xyz 0.7 3.9 0.05))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 -180 -90))
     )
   )
 
