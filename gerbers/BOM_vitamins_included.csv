@@ -11,3 +11,5 @@ Id,Designator,Package,Quantity,Designation,Supplier and ref
 10,"U1,U2",QFN44G-0.5-7X7MM,2,ATMega32U4-MU,
 11,"P4,P8",SJ-4351X-SMT,2,SJ-43514-SMT,
 12,"C2,C3,C7,C6",C_0603_1608Metric,4,18pF,
+13,"SW49,SW50",SW_SPST_FSMSM,2,FSMSM,
+14,"D27,D28",LED_0603_1608Metric_Castellated,2,red,

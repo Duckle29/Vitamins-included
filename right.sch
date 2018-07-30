@@ -420,19 +420,19 @@ Wire Wire Line
 $Comp
 L vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J6
 U 1 1 5A0E2A70
-P 10325 4125
-F 0 "J6" H 10375 4442 50  0000 C CNN
-F 1 "ISP" H 10375 4351 50  0000 C CNN
-F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 10325 4125 50  0001 C CNN
-F 3 "" H 10325 4125 50  0001 C CNN
-	1    10325 4125
+P 2950 2050
+F 0 "J6" H 3000 2367 50  0000 C CNN
+F 1 "ISP" H 3000 2276 50  0000 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 2950 2050 50  0001 C CNN
+F 3 "" H 2950 2050 50  0001 C CNN
+	1    2950 2050
 	1    0    0    -1  
 $EndComp
-Text Label 10125 4225 2    55   ~ 0
+Text Label 2750 2150 2    55   ~ 0
 ~RESET
-Text Label 10125 4125 2    55   ~ 0
+Text Label 2750 2050 2    55   ~ 0
 SCK
-Text Label 3375 4500 2    35   ~ 0
+Text Label 3250 4500 2    35   ~ 0
 ~RESET
 Text Label 5100 4250 0    55   ~ 0
 MOSI
@@ -441,38 +441,38 @@ MISO
 Text Label 5100 4150 0    55   ~ 0
 SCK
 Wire Wire Line
-	10625 4225 10675 4225
+	3250 2150 3300 2150
 Wire Wire Line
-	10675 4225 10675 4275
+	3300 2150 3300 2200
 Wire Wire Line
-	10625 4025 10675 4025
+	3250 1950 3300 1950
 Wire Wire Line
-	10675 4025 10675 3975
+	3300 1950 3300 1900
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR037
 U 1 1 5A0E2A84
-P 10675 3975
-F 0 "#PWR037" H 10675 3825 50  0001 C CNN
-F 1 "VCC" H 10675 4125 50  0000 C CNN
-F 2 "" H 10675 3975 50  0000 C CNN
-F 3 "" H 10675 3975 50  0000 C CNN
-	1    10675 3975
+P 3300 1900
+F 0 "#PWR037" H 3300 1750 50  0001 C CNN
+F 1 "VCC" H 3300 2050 50  0000 C CNN
+F 2 "" H 3300 1900 50  0000 C CNN
+F 3 "" H 3300 1900 50  0000 C CNN
+	1    3300 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR038
 U 1 1 5A0E2A8A
-P 10675 4275
-F 0 "#PWR038" H 10675 4025 50  0001 C CNN
-F 1 "GND" H 10675 4125 50  0000 C CNN
-F 2 "" H 10675 4275 50  0000 C CNN
-F 3 "" H 10675 4275 50  0000 C CNN
-	1    10675 4275
+P 3300 2200
+F 0 "#PWR038" H 3300 1950 50  0001 C CNN
+F 1 "GND" H 3300 2050 50  0000 C CNN
+F 2 "" H 3300 2200 50  0000 C CNN
+F 3 "" H 3300 2200 50  0000 C CNN
+	1    3300 2200
 	1    0    0    -1  
 $EndComp
-Text Label 10125 4025 2    55   ~ 0
+Text Label 2750 1950 2    55   ~ 0
 MISO
-Text Label 10625 4125 0    55   ~ 0
+Text Label 3250 2050 0    55   ~ 0
 MOSI
 Text Label 2325 5150 0    60   ~ 0
 Dd-
@@ -1137,31 +1137,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5B54699A
-P 2525 4500
-F 0 "J4" H 2605 4492 50  0000 L CNN
-F 1 "reset" H 2605 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2525 4500 50  0001 C CNN
-F 3 "~" H 2525 4500 50  0001 C CNN
-	1    2525 4500
+P 1300 1975
+F 0 "J4" H 1380 1967 50  0000 L CNN
+F 1 "reset" H 1380 1876 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 1975 50  0001 C CNN
+F 3 "~" H 1300 1975 50  0001 C CNN
+	1    1300 1975
 	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2725 4500 2850 4500
-Connection ~ 2850 4500
-Wire Wire Line
-	2725 4600 2800 4600
-Wire Wire Line
-	2800 4600 2800 4650
-$Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR016
-U 1 1 5B56EBA6
-P 2800 4650
-F 0 "#PWR016" H 2800 4400 50  0001 C CNN
-F 1 "GND" H 2800 4500 50  0000 C CNN
-F 2 "" H 2800 4650 50  0000 C CNN
-F 3 "" H 2800 4650 50  0000 C CNN
-	1    2800 4650
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5575 4400 5575 4450
@@ -1312,4 +1294,93 @@ F 3 "" H 5575 4600 50  0001 C CNN
 	1    5575 4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR016
+U 1 1 5B62A621
+P 1550 2325
+F 0 "#PWR016" H 1550 2075 50  0001 C CNN
+F 1 "GND" H 1550 2175 50  0000 C CNN
+F 2 "" H 1550 2325 50  0000 C CNN
+F 3 "" H 1550 2325 50  0000 C CNN
+	1    1550 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW50
+U 1 1 5B62A627
+P 1600 2025
+F 0 "SW50" V 1554 2123 50  0000 L CNN
+F 1 "FSMSM" V 1645 2123 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_SPST_FSMSM" H 1600 2025 50  0001 C CNN
+F 3 "" H 1600 2025 50  0001 C CNN
+	1    1600 2025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 1975 1550 1975
+Wire Wire Line
+	1550 1975 1550 1775
+Wire Wire Line
+	1550 1775 1600 1775
+Wire Wire Line
+	1600 1775 1600 1825
+Wire Wire Line
+	1500 2075 1550 2075
+Wire Wire Line
+	1550 2275 1600 2275
+Wire Wire Line
+	1600 2275 1600 2225
+Wire Wire Line
+	1550 2075 1550 2275
+Connection ~ 1550 2275
+Wire Wire Line
+	1550 2275 1550 2325
+Wire Wire Line
+	1550 1775 1550 1700
+Connection ~ 1550 1775
+Text Label 1550 1700 3    35   ~ 0
+~RESET
+$Comp
+L Device:LED_Small D28
+U 1 1 5B5FD568
+P 5300 5550
+F 0 "D28" H 5300 5345 50  0000 C CNN
+F 1 "red" H 5300 5436 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 5300 5550 50  0001 C CNN
+F 3 "~" V 5300 5550 50  0001 C CNN
+	1    5300 5550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5175 5650 5175 5550
+Wire Wire Line
+	5175 5550 5200 5550
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R16
+U 1 1 5B5FD571
+P 5500 5550
+F 0 "R16" H 5525 5575 50  0000 L CNN
+F 1 "220R" H 5525 5500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5500 5550 50  0001 C CNN
+F 3 "" H 5500 5550 50  0000 C CNN
+	1    5500 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5175 5650 5100 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5B5E458B
+P 5650 5600
+F 0 "#PWR?" H 5650 5350 50  0001 C CNN
+F 1 "GND" H 5655 5427 50  0000 C CNN
+F 2 "" H 5650 5600 50  0001 C CNN
+F 3 "" H 5650 5600 50  0001 C CNN
+	1    5650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5550 5650 5550
+Wire Wire Line
+	5650 5550 5650 5600
 $EndSCHEMATC
