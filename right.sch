@@ -1391,7 +1391,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305AB7
 P 7800 4400
-F 0 "D?" H 7875 4650 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AB7" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305AB7" Ref="D35"  Part="1" 
+F 0 "D35" H 7875 4650 50  0000 L CNN
 F 1 "WS2812B" H 7875 4150 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7850 4100 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 4025 50  0001 L TNN
@@ -1402,7 +1404,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305ABE
 P 7350 4200
-F 0 "C?" H 7442 4246 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305ABE" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305ABE" Ref="C15"  Part="1" 
+F 0 "C15" H 7442 4246 50  0000 L CNN
 F 1 "1uF" H 7442 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 4200 50  0001 C CNN
 F 3 "" H 7350 4200 50  0001 C CNN
@@ -1427,7 +1431,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305ACC
 P 8750 4400
-F 0 "D?" H 8825 4650 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305ACC" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305ACC" Ref="D36"  Part="1" 
+F 0 "D36" H 8825 4650 50  0000 L CNN
 F 1 "WS2812B" H 8825 4150 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 4100 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 4025 50  0001 L TNN
@@ -1438,7 +1444,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305AD3
 P 8300 4200
-F 0 "C?" H 8392 4246 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AD3" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305AD3" Ref="C16"  Part="1" 
+F 0 "C16" H 8392 4246 50  0000 L CNN
 F 1 "1uF" H 8392 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 4200 50  0001 C CNN
 F 3 "" H 8300 4200 50  0001 C CNN
@@ -1463,7 +1471,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305AE1
 P 9700 4400
-F 0 "D?" H 9775 4650 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AE1" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305AE1" Ref="D37"  Part="1" 
+F 0 "D37" H 9775 4650 50  0000 L CNN
 F 1 "WS2812B" H 9775 4150 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9750 4100 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9800 4025 50  0001 L TNN
@@ -1474,7 +1484,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305AE8
 P 9250 4200
-F 0 "C?" H 9342 4246 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AE8" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305AE8" Ref="C17"  Part="1" 
+F 0 "C17" H 9342 4246 50  0000 L CNN
 F 1 "1uF" H 9342 4155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 4200 50  0001 C CNN
 F 3 "" H 9250 4200 50  0001 C CNN
@@ -1499,7 +1511,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305AF6
 P 7800 5600
-F 0 "D?" H 7875 5850 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AF6" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305AF6" Ref="D38"  Part="1" 
+F 0 "D38" H 7875 5850 50  0000 L CNN
 F 1 "WS2812B" H 7875 5350 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7850 5300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 5225 50  0001 L TNN
@@ -1510,7 +1524,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305AFD
 P 7350 5400
-F 0 "C?" H 7442 5446 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305AFD" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305AFD" Ref="C18"  Part="1" 
+F 0 "C18" H 7442 5446 50  0000 L CNN
 F 1 "1uF" H 7442 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 5400 50  0001 C CNN
 F 3 "" H 7350 5400 50  0001 C CNN
@@ -1531,7 +1547,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305B09
 P 8750 5600
-F 0 "D?" H 8825 5850 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305B09" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305B09" Ref="D39"  Part="1" 
+F 0 "D39" H 8825 5850 50  0000 L CNN
 F 1 "WS2812B" H 8825 5350 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 5300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 5225 50  0001 L TNN
@@ -1542,7 +1560,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305B10
 P 8300 5400
-F 0 "C?" H 8392 5446 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305B10" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305B10" Ref="C19"  Part="1" 
+F 0 "C19" H 8392 5446 50  0000 L CNN
 F 1 "1uF" H 8392 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 5400 50  0001 C CNN
 F 3 "" H 8300 5400 50  0001 C CNN
@@ -1567,7 +1587,9 @@ $Comp
 L LED:WS2812B D?
 U 1 1 5C305B1E
 P 9700 5600
-F 0 "D?" H 9775 5850 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305B1E" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5C305B1E" Ref="D40"  Part="1" 
+F 0 "D40" H 9775 5850 50  0000 L CNN
 F 1 "WS2812B" H 9775 5350 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9750 5300 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9800 5225 50  0001 L TNN
@@ -1578,7 +1600,9 @@ $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
 U 1 1 5C305B25
 P 9250 5400
-F 0 "C?" H 9342 5446 50  0000 L CNN
+AR Path="/5A0DE9BD/5C305B25" Ref="C?"  Part="1" 
+AR Path="/5A0DF911/5C305B25" Ref="C20"  Part="1" 
+F 0 "C20" H 9342 5446 50  0000 L CNN
 F 1 "1uF" H 9342 5355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 5400 50  0001 C CNN
 F 3 "" H 9250 5400 50  0001 C CNN
@@ -1627,7 +1651,9 @@ $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
 U 1 1 5C305B43
 P 7350 4000
-F 0 "#PWR?" H 7350 3850 50  0001 C CNN
+AR Path="/5A0DE9BD/5C305B43" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5C305B43" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 7350 3850 50  0001 C CNN
 F 1 "VCC" H 7350 4150 50  0000 C CNN
 F 2 "" H 7350 4000 50  0000 C CNN
 F 3 "" H 7350 4000 50  0000 C CNN
@@ -1641,7 +1667,9 @@ $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
 U 1 1 5C305B4B
 P 7350 5225
-F 0 "#PWR?" H 7350 5075 50  0001 C CNN
+AR Path="/5A0DE9BD/5C305B4B" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5C305B4B" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7350 5075 50  0001 C CNN
 F 1 "VCC" H 7350 5375 50  0000 C CNN
 F 2 "" H 7350 5225 50  0000 C CNN
 F 3 "" H 7350 5225 50  0000 C CNN
@@ -1657,7 +1685,9 @@ $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
 U 1 1 5C305B54
 P 7350 6000
-F 0 "#PWR?" H 7350 5750 50  0001 C CNN
+AR Path="/5A0DE9BD/5C305B54" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5C305B54" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7350 5750 50  0001 C CNN
 F 1 "GND" H 7350 5850 50  0000 C CNN
 F 2 "" H 7350 6000 50  0000 C CNN
 F 3 "" H 7350 6000 50  0000 C CNN
@@ -1671,7 +1701,9 @@ $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
 U 1 1 5C305B5C
 P 7350 4800
-F 0 "#PWR?" H 7350 4550 50  0001 C CNN
+AR Path="/5A0DE9BD/5C305B5C" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5C305B5C" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7350 4550 50  0001 C CNN
 F 1 "GND" H 7350 4650 50  0000 C CNN
 F 2 "" H 7350 4800 50  0000 C CNN
 F 3 "" H 7350 4800 50  0000 C CNN
