@@ -1,11 +1,458 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:USB_C_Receptacle
+# Connector_Generic_Conn_01x02
 #
-DEF Connector:USB_C_Receptacle J 0 40 Y Y 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky_Small
+#
+DEF Device_D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "Device_D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_x2_KCom_AAK
+#
+DEF Device_D_x2_KCom_AAK D 0 30 Y N 1 F N
+F0 "D" 50 -100 50 H V C CNN
+F1 "Device_D_x2_KCom_AAK" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -150 0 150 0 N
+P 2 0 1 0 0 0 0 -100 N
+P 3 0 1 8 -50 -50 -50 50 -50 50 N
+P 3 0 1 8 50 -50 50 50 50 50 N
+P 6 0 1 8 -150 50 -50 0 -150 -50 -150 50 -150 50 -150 50 N
+P 6 0 1 8 150 -50 50 0 150 50 150 -50 150 -50 150 -50 N
+X A 1 -300 0 150 R 50 50 0 1 P
+X A 2 300 0 150 L 50 50 0 1 P
+X K 3 0 -200 100 U 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED_Small
+#
+DEF Device_LED_Small D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Device_LED_Small" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_WS2812B
+#
+DEF LED_WS2812B D 0 10 Y Y 1 F N
+F0 "D" 200 225 50 H V R BNN
+F1 "LED_WS2812B" 50 -225 50 H V L TNN
+F2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" 50 -300 50 H I L TNN
+F3 "" 100 -375 50 H I L TNN
+$FPLIST
+ LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*
+$ENDFPLIST
+DRAW
+T 0 90 -165 30 0 0 0 RGB Normal 0 C C
+S 200 200 -200 -200 0 1 10 f
+P 2 0 1 0 50 -140 70 -140 N
+P 2 0 1 0 50 -100 70 -100 N
+P 2 0 1 0 185 -140 105 -140 N
+P 3 0 1 0 90 -100 50 -140 50 -120 N
+P 3 0 1 0 90 -60 50 -100 50 -80 N
+P 3 0 1 0 145 -40 145 -140 145 -160 N
+P 4 0 1 0 185 -60 105 -60 145 -140 185 -60 N
+X VDD 1 0 300 100 D 50 50 1 1 W
+X DOUT 2 300 0 100 L 50 50 1 1 O
+X VSS 3 0 -300 100 U 50 50 1 1 W
+X DIN 4 -300 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_SPST
+#
+DEF Switch_SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_SPST" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U 0 40 Y Y 1 F N
+F0 "U" -100 800 60 H V L CNN
+F1 "vitamins_included-rescue_ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue" -100 -2200 60 H V L CNN
+F2 "" 1700 950 60 H V C CNN
+F3 "" 1700 950 60 H V C CNN
+DRAW
+S -100 750 1200 -2150 0 1 0 N
+X (INT6)PE6 1 1350 -1400 150 L 50 50 1 1 T
+X (MOSI)PB2 10 1350 450 150 L 50 50 1 1 T
+X (MISO)PB3 11 1350 350 150 L 50 50 1 1 T
+X ~~PB7 12 1350 -50 150 L 50 50 1 1 T
+X ~RESET~ 13 -250 200 150 R 50 50 1 1 T I
+X VCC 14 -250 450 150 R 50 50 1 1 W
+X GND 15 -250 -1750 150 R 50 50 1 1 W
+X XTAL2 16 -250 -1150 150 R 50 50 1 1 I
+X XTAL1 17 -250 -750 150 R 50 50 1 1 I
+X ~~(INT0/SCL)PD0 18 1350 -450 150 L 50 50 1 1 T
+X (INT1/SDA)PD1 19 1350 -550 150 L 50 50 1 1 T
+X UVCC 2 -250 650 150 R 50 50 1 1 W
+X (INT2/RX)PD2 20 1350 -650 150 L 50 50 1 1 T
+X (INT3/TX)PD3 21 1350 -750 150 L 50 50 1 1 T
+X PD5 22 1350 -950 150 L 50 50 1 1 T
+X GND 23 -250 -2050 150 R 50 50 1 1 W
+X AVCC 24 -250 -250 150 R 50 50 1 1 W
+X (ADC8)PD4 25 1350 -850 150 L 50 50 1 1 T
+X ~~(ADC9)PD6 26 1350 -1050 150 L 50 50 1 1 T
+X ~~(ADC10)PD7 27 1350 -1150 150 L 50 50 1 1 T
+X (A11)PB4 28 1350 250 150 L 50 50 1 1 T
+X ~~(A12)PB5 29 1350 150 150 L 50 50 1 1 T
+X D- 3 -250 -450 150 R 50 50 1 1 B
+X ~~(A13)PB6 30 1350 50 150 L 50 50 1 1 T
+X ~~PC6 31 1350 -200 150 L 50 50 1 1 T
+X ~~PC7 32 1350 -300 150 L 50 50 1 1 T
+X PE2 33 1350 -1300 150 L 50 50 1 1 T
+X VCC 34 -250 350 150 R 50 50 1 1 W
+X GND 35 -250 -1950 150 R 50 50 1 1 W
+X (A7)PF7 36 1350 -2050 150 L 50 50 1 1 T
+X (A6)PF6 37 1350 -1950 150 L 50 50 1 1 T
+X (A5)PF5 38 1350 -1850 150 L 50 50 1 1 T
+X (A4)PF4 39 1350 -1750 150 L 50 50 1 1 T
+X D+ 4 -250 -550 150 R 50 50 1 1 B
+X (A1)PF1 40 1350 -1650 150 L 50 50 1 1 T
+X (A0)PF0 41 1350 -1550 150 L 50 50 1 1 T
+X AREF 42 -250 0 150 R 50 50 1 1 I
+X GND 43 -250 -1850 150 R 50 50 1 1 W
+X AVCC 44 -250 -150 150 R 50 50 1 1 W
+X UGND 5 -250 -1650 150 R 50 50 1 1 W
+X UCap 6 -250 -1350 150 R 50 50 1 1 P
+X VBUS 7 -250 550 150 R 50 50 1 1 P
+X (CS)PB0 8 1350 650 150 L 50 50 1 1 T
+X (SCK)PB1 9 1350 550 150 L 50 50 1 1 T
+X GND TAB -250 -1550 150 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "vitamins_included-rescue_C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "vitamins_included-rescue_Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "vitamins_included-rescue_Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "vitamins_included-rescue_Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "vitamins_included-rescue_Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "vitamins_included-rescue_Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue_Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue FID 0 40 Y Y 1 F N
+F0 "FID" 0 -150 60 H V C CNN
+F1 "vitamins_included-rescue_Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+S -100 0 100 0 0 1 0 N
+S 0 100 0 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_GND-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "vitamins_included-rescue_GND-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue_Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "vitamins_included-rescue_R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue
+#
+DEF vitamins_included-rescue_SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "vitamins_included-rescue_SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# vitamins_included-rescue_USB_C_Receptacle-Connector
+#
+DEF vitamins_included-rescue_USB_C_Receptacle-Connector J 0 40 Y Y 1 F N
 F0 "J" -400 1450 50 H V L CNN
-F1 "Connector:USB_C_Receptacle" 400 1450 50 H V R CNN
+F1 "vitamins_included-rescue_USB_C_Receptacle-Connector" 400 1450 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -81,529 +528,11 @@ X SHIELD S1 -300 -1600 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x02
+# vitamins_included-rescue_VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D_Schottky_Small
-#
-DEF Device:D_Schottky_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "Device:D_Schottky_Small" -280 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
-P 3 0 1 0 -30 40 -40 40 -40 30 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D_x2_KCom_AAK
-#
-DEF Device:D_x2_KCom_AAK D 0 30 Y N 1 F N
-F0 "D" 50 -100 50 H V C CNN
-F1 "Device:D_x2_KCom_AAK" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -150 0 150 0 N
-P 2 0 1 0 0 0 0 -100 N
-P 3 0 1 8 -50 -50 -50 50 -50 50 N
-P 3 0 1 8 50 -50 50 50 50 50 N
-P 6 0 1 8 -150 50 -50 0 -150 -50 -150 50 -150 50 -150 50 N
-P 6 0 1 8 150 -50 50 0 150 50 150 -50 150 -50 150 -50 N
-X A 1 -300 0 150 R 50 50 0 1 P
-X A 2 300 0 150 L 50 50 0 1 P
-X K 3 0 -200 100 U 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:LED_Small
-#
-DEF Device:LED_Small D 0 10 N N 1 F N
-F0 "D" -50 125 50 H V L CNN
-F1 "Device:LED_Small" -175 -100 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 40 0 -30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
-P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Q_NMOS_GDS
-#
-DEF Device:Q_NMOS_GDS Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NMOS_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 20 115 15 145 15 150 10 N
-P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 200 R 50 50 1 1 I
-X D 2 100 200 100 D 50 50 1 1 P
-X S 3 100 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Q_PMOS_GDS
-#
-DEF Device:Q_PMOS_GDS Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_GDS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 90 0 50 -15 50 15 90 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X G 1 -200 0 200 R 50 50 1 1 I
-X D 2 100 200 100 D 50 50 1 1 P
-X S 3 100 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:R
-#
-DEF Device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:R_Small
-#
-DEF Device:R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch:SW_SPST
-#
-DEF Switch:SW_SPST SW 0 0 Y N 1 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "Switch:SW_SPST" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:GND
-#
-DEF power:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U 0 40 Y Y 1 F N
-F0 "U" -100 800 60 H V L CNN
-F1 "vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue" -100 -2200 60 H V L CNN
-F2 "" 1700 950 60 H V C CNN
-F3 "" 1700 950 60 H V C CNN
-DRAW
-S -100 750 1200 -2150 0 1 0 N
-X (INT6)PE6 1 1350 -1400 150 L 50 50 1 1 T
-X (MOSI)PB2 10 1350 450 150 L 50 50 1 1 T
-X (MISO)PB3 11 1350 350 150 L 50 50 1 1 T
-X ~~PB7 12 1350 -50 150 L 50 50 1 1 T
-X ~RESET~ 13 -250 200 150 R 50 50 1 1 T I
-X VCC 14 -250 450 150 R 50 50 1 1 W
-X GND 15 -250 -1750 150 R 50 50 1 1 W
-X XTAL2 16 -250 -1150 150 R 50 50 1 1 I
-X XTAL1 17 -250 -750 150 R 50 50 1 1 I
-X ~~(INT0/SCL)PD0 18 1350 -450 150 L 50 50 1 1 T
-X (INT1/SDA)PD1 19 1350 -550 150 L 50 50 1 1 T
-X UVCC 2 -250 650 150 R 50 50 1 1 W
-X (INT2/RX)PD2 20 1350 -650 150 L 50 50 1 1 T
-X (INT3/TX)PD3 21 1350 -750 150 L 50 50 1 1 T
-X PD5 22 1350 -950 150 L 50 50 1 1 T
-X GND 23 -250 -2050 150 R 50 50 1 1 W
-X AVCC 24 -250 -250 150 R 50 50 1 1 W
-X (ADC8)PD4 25 1350 -850 150 L 50 50 1 1 T
-X ~~(ADC9)PD6 26 1350 -1050 150 L 50 50 1 1 T
-X ~~(ADC10)PD7 27 1350 -1150 150 L 50 50 1 1 T
-X (A11)PB4 28 1350 250 150 L 50 50 1 1 T
-X ~~(A12)PB5 29 1350 150 150 L 50 50 1 1 T
-X D- 3 -250 -450 150 R 50 50 1 1 B
-X ~~(A13)PB6 30 1350 50 150 L 50 50 1 1 T
-X ~~PC6 31 1350 -200 150 L 50 50 1 1 T
-X ~~PC7 32 1350 -300 150 L 50 50 1 1 T
-X PE2 33 1350 -1300 150 L 50 50 1 1 T
-X VCC 34 -250 350 150 R 50 50 1 1 W
-X GND 35 -250 -1950 150 R 50 50 1 1 W
-X (A7)PF7 36 1350 -2050 150 L 50 50 1 1 T
-X (A6)PF6 37 1350 -1950 150 L 50 50 1 1 T
-X (A5)PF5 38 1350 -1850 150 L 50 50 1 1 T
-X (A4)PF4 39 1350 -1750 150 L 50 50 1 1 T
-X D+ 4 -250 -550 150 R 50 50 1 1 B
-X (A1)PF1 40 1350 -1650 150 L 50 50 1 1 T
-X (A0)PF0 41 1350 -1550 150 L 50 50 1 1 T
-X AREF 42 -250 0 150 R 50 50 1 1 I
-X GND 43 -250 -1850 150 R 50 50 1 1 W
-X AVCC 44 -250 -150 150 R 50 50 1 1 W
-X UGND 5 -250 -1650 150 R 50 50 1 1 W
-X UCap 6 -250 -1350 150 R 50 50 1 1 P
-X VBUS 7 -250 550 150 R 50 50 1 1 P
-X (CS)PB0 8 1350 650 150 L 50 50 1 1 T
-X (SCK)PB1 9 1350 550 150 L 50 50 1 1 T
-X GND TAB -250 -1550 150 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "vitamins_included-rescue:Conn_01x02-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J 0 40 Y N 1 F N
-F0 "J" 50 200 50 H V C CNN
-F1 "vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 150 -150 1 1 10 f
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 300 100 150 L 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 300 0 150 L 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 300 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue FID 0 40 Y Y 1 F N
-F0 "FID" 0 -150 60 H V C CNN
-F1 "vitamins_included-rescue:Fiducial-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 50 0 1 0 N
-S -100 0 100 0 0 1 0 N
-S 0 100 0 -100 0 1 0 N
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue JP 0 30 Y N 1 F N
-F0 "JP" 0 150 50 H V C CNN
-F1 "vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -80 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-C -100 0 35 0 1 0 N
-C 100 0 35 0 1 0 N
-X 1 1 -300 0 165 R 50 50 0 1 P
-X 2 2 300 0 165 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue
-#
-DEF vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
+DEF vitamins_included-rescue_VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue_VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -614,11 +543,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue
+# vitamins_included-rescue_VCC-RESCUE-lets_split_panel-lets_split_panel-rescue
 #
-DEF vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
+DEF vitamins_included-rescue_VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
+F1 "vitamins_included-rescue_VCC-RESCUE-lets_split_panel-lets_split_panel-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

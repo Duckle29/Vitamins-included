@@ -1200,7 +1200,7 @@ Wire Wire Line
 Wire Wire Line
 	2025 4250 2075 4250
 $Comp
-L Connector:USB_C_Receptacle J10
+L vitamins_included-rescue:USB_C_Receptacle-Connector J10
 U 1 1 5B69FA86
 P 1425 5550
 F 0 "J10" H 1530 7117 50  0000 C CNN
@@ -1369,10 +1369,10 @@ $EndComp
 Wire Wire Line
 	5175 5650 5100 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5B5E458B
 P 5650 5600
-F 0 "#PWR?" H 5650 5350 50  0001 C CNN
+F 0 "#PWR0102" H 5650 5350 50  0001 C CNN
 F 1 "GND" H 5655 5427 50  0000 C CNN
 F 2 "" H 5650 5600 50  0001 C CNN
 F 3 "" H 5650 5600 50  0001 C CNN
@@ -1383,4 +1383,318 @@ Wire Wire Line
 	5600 5550 5650 5550
 Wire Wire Line
 	5650 5550 5650 5600
+Text Label 7150 4400 2    55   ~ 0
+WD2812-in
+Text Label 7075 5600 2    55   ~ 0
+SDA
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305AB7
+P 7800 4400
+F 0 "D?" H 7875 4650 50  0000 L CNN
+F 1 "WS2812B" H 7875 4150 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7850 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 4025 50  0001 L TNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305ABE
+P 7350 4200
+F 0 "C?" H 7442 4246 50  0000 L CNN
+F 1 "1uF" H 7442 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 4200 50  0001 C CNN
+F 3 "" H 7350 4200 50  0001 C CNN
+	1    7350 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4300 7350 4750
+Wire Wire Line
+	7350 4750 7800 4750
+Wire Wire Line
+	7800 4750 7800 4700
+Wire Wire Line
+	7800 4100 7800 4050
+Wire Wire Line
+	7800 4050 7350 4050
+Wire Wire Line
+	7350 4050 7350 4100
+Wire Wire Line
+	7150 4400 7500 4400
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305ACC
+P 8750 4400
+F 0 "D?" H 8825 4650 50  0000 L CNN
+F 1 "WS2812B" H 8825 4150 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 4025 50  0001 L TNN
+	1    8750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305AD3
+P 8300 4200
+F 0 "C?" H 8392 4246 50  0000 L CNN
+F 1 "1uF" H 8392 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 4200 50  0001 C CNN
+F 3 "" H 8300 4200 50  0001 C CNN
+	1    8300 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4300 8300 4750
+Wire Wire Line
+	8300 4750 8750 4750
+Wire Wire Line
+	8750 4750 8750 4700
+Wire Wire Line
+	8750 4100 8750 4050
+Wire Wire Line
+	8750 4050 8300 4050
+Wire Wire Line
+	8300 4050 8300 4100
+Wire Wire Line
+	8100 4400 8450 4400
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305AE1
+P 9700 4400
+F 0 "D?" H 9775 4650 50  0000 L CNN
+F 1 "WS2812B" H 9775 4150 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9750 4100 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9800 4025 50  0001 L TNN
+	1    9700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305AE8
+P 9250 4200
+F 0 "C?" H 9342 4246 50  0000 L CNN
+F 1 "1uF" H 9342 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 4200 50  0001 C CNN
+F 3 "" H 9250 4200 50  0001 C CNN
+	1    9250 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4300 9250 4750
+Wire Wire Line
+	9250 4750 9700 4750
+Wire Wire Line
+	9700 4750 9700 4700
+Wire Wire Line
+	9700 4100 9700 4050
+Wire Wire Line
+	9700 4050 9250 4050
+Wire Wire Line
+	9250 4050 9250 4100
+Wire Wire Line
+	9050 4400 9400 4400
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305AF6
+P 7800 5600
+F 0 "D?" H 7875 5850 50  0000 L CNN
+F 1 "WS2812B" H 7875 5350 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7850 5300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 5225 50  0001 L TNN
+	1    7800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305AFD
+P 7350 5400
+F 0 "C?" H 7442 5446 50  0000 L CNN
+F 1 "1uF" H 7442 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 5400 50  0001 C CNN
+F 3 "" H 7350 5400 50  0001 C CNN
+	1    7350 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5500 7350 5950
+Wire Wire Line
+	7350 5950 7800 5950
+Wire Wire Line
+	7800 5950 7800 5900
+Wire Wire Line
+	7800 5300 7800 5250
+Wire Wire Line
+	7800 5250 7350 5250
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305B09
+P 8750 5600
+F 0 "D?" H 8825 5850 50  0000 L CNN
+F 1 "WS2812B" H 8825 5350 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8800 5300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 5225 50  0001 L TNN
+	1    8750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305B10
+P 8300 5400
+F 0 "C?" H 8392 5446 50  0000 L CNN
+F 1 "1uF" H 8392 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8300 5400 50  0001 C CNN
+F 3 "" H 8300 5400 50  0001 C CNN
+	1    8300 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5500 8300 5950
+Wire Wire Line
+	8300 5950 8750 5950
+Wire Wire Line
+	8750 5950 8750 5900
+Wire Wire Line
+	8750 5300 8750 5250
+Wire Wire Line
+	8750 5250 8300 5250
+Wire Wire Line
+	8300 5250 8300 5300
+Wire Wire Line
+	8100 5600 8450 5600
+$Comp
+L LED:WS2812B D?
+U 1 1 5C305B1E
+P 9700 5600
+F 0 "D?" H 9775 5850 50  0000 L CNN
+F 1 "WS2812B" H 9775 5350 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9750 5300 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9800 5225 50  0001 L TNN
+	1    9700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C?
+U 1 1 5C305B25
+P 9250 5400
+F 0 "C?" H 9342 5446 50  0000 L CNN
+F 1 "1uF" H 9342 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9250 5400 50  0001 C CNN
+F 3 "" H 9250 5400 50  0001 C CNN
+	1    9250 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5500 9250 5950
+Wire Wire Line
+	9250 5950 9700 5950
+Wire Wire Line
+	9700 5950 9700 5900
+Wire Wire Line
+	9700 5300 9700 5250
+Wire Wire Line
+	9700 5250 9250 5250
+Wire Wire Line
+	9250 5250 9250 5300
+Wire Wire Line
+	9050 5600 9400 5600
+Wire Wire Line
+	10000 5600 10150 5600
+Wire Wire Line
+	10150 5600 10150 4400
+Wire Wire Line
+	10150 4400 10000 4400
+Wire Wire Line
+	7500 5600 7075 5600
+Wire Wire Line
+	7800 4050 8300 4050
+Connection ~ 7800 4050
+Connection ~ 8300 4050
+Wire Wire Line
+	8750 4050 9250 4050
+Connection ~ 8750 4050
+Connection ~ 9250 4050
+Wire Wire Line
+	7800 4750 8300 4750
+Connection ~ 7800 4750
+Connection ~ 8300 4750
+Wire Wire Line
+	8750 4750 9250 4750
+Connection ~ 8750 4750
+Connection ~ 9250 4750
+$Comp
+L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+U 1 1 5C305B43
+P 7350 4000
+F 0 "#PWR?" H 7350 3850 50  0001 C CNN
+F 1 "VCC" H 7350 4150 50  0000 C CNN
+F 2 "" H 7350 4000 50  0000 C CNN
+F 3 "" H 7350 4000 50  0000 C CNN
+	1    7350 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 4050
+Wire Wire Line
+	7350 4050 7350 4000
+$Comp
+L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+U 1 1 5C305B4B
+P 7350 5225
+F 0 "#PWR?" H 7350 5075 50  0001 C CNN
+F 1 "VCC" H 7350 5375 50  0000 C CNN
+F 2 "" H 7350 5225 50  0000 C CNN
+F 3 "" H 7350 5225 50  0000 C CNN
+	1    7350 5225
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 5250
+Wire Wire Line
+	7350 5250 7350 5225
+Wire Wire Line
+	7350 5250 7350 5300
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+U 1 1 5C305B54
+P 7350 6000
+F 0 "#PWR?" H 7350 5750 50  0001 C CNN
+F 1 "GND" H 7350 5850 50  0000 C CNN
+F 2 "" H 7350 6000 50  0000 C CNN
+F 3 "" H 7350 6000 50  0000 C CNN
+	1    7350 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6000 7350 5950
+Connection ~ 7350 5950
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+U 1 1 5C305B5C
+P 7350 4800
+F 0 "#PWR?" H 7350 4550 50  0001 C CNN
+F 1 "GND" H 7350 4650 50  0000 C CNN
+F 2 "" H 7350 4800 50  0000 C CNN
+F 3 "" H 7350 4800 50  0000 C CNN
+	1    7350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4800 7350 4750
+Connection ~ 7350 4750
+Wire Wire Line
+	7800 5250 8300 5250
+Connection ~ 7800 5250
+Connection ~ 8300 5250
+Wire Wire Line
+	8750 5250 9250 5250
+Connection ~ 8750 5250
+Connection ~ 9250 5250
+Wire Wire Line
+	9250 5950 8750 5950
+Connection ~ 9250 5950
+Connection ~ 8750 5950
+Wire Wire Line
+	8300 5950 7800 5950
+Connection ~ 8300 5950
+Connection ~ 7800 5950
 $EndSCHEMATC
