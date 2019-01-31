@@ -13,3 +13,4 @@ Id,Designator,Package,Quantity,Designation,Supplier and ref
 12,"C2,C3,C7,C6",C_0603_1608Metric,4,18pF,
 13,"SW49,SW50",SW_SPST_FSMSM,2,FSMSM,
 14,"D27,D28",LED_0603_1608Metric_Castellated,2,red,
+15,"D30,D31,D29,D34,D32,D33,D40,D36,D37,D35,D39,D38",LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,12,WS2812B,
