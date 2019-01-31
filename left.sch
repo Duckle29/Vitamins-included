@@ -1343,7 +1343,7 @@ Wire Wire Line
 Wire Wire Line
 	950  1800 700  1800
 $Comp
-L Connector:USB_C_Receptacle J9
+L vitamins_included-rescue:USB_C_Receptacle-Connector J9
 U 1 1 5B5A4B97
 P 1125 5500
 F 0 "J9" H 1230 7067 50  0000 C CNN
@@ -1497,14 +1497,328 @@ Wire Wire Line
 Wire Wire Line
 	5700 5500 5700 5550
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0101
 U 1 1 5B621855
 P 5700 5550
-F 0 "#PWR?" H 5700 5300 50  0001 C CNN
+F 0 "#PWR0101" H 5700 5300 50  0001 C CNN
 F 1 "GND" H 5700 5400 50  0000 C CNN
 F 2 "" H 5700 5550 50  0000 C CNN
 F 3 "" H 5700 5550 50  0000 C CNN
 	1    5700 5550
 	1    0    0    -1  
 $EndComp
+Text Label 6725 4675 2    60   ~ 0
+wd2812-in
+Text Label 6650 5875 2    60   ~ 0
+SDA
+$Comp
+L LED:WS2812B D29
+U 1 1 5C263247
+P 7375 4675
+F 0 "D29" H 7450 4925 50  0000 L CNN
+F 1 "WS2812B" H 7450 4425 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7425 4375 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7475 4300 50  0001 L TNN
+	1    7375 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C9
+U 1 1 5C26324E
+P 6925 4475
+F 0 "C9" H 7017 4521 50  0000 L CNN
+F 1 "1uF" H 7017 4430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6925 4475 50  0001 C CNN
+F 3 "" H 6925 4475 50  0001 C CNN
+	1    6925 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 4575 6925 5025
+Wire Wire Line
+	6925 5025 7375 5025
+Wire Wire Line
+	7375 5025 7375 4975
+Wire Wire Line
+	7375 4375 7375 4325
+Wire Wire Line
+	7375 4325 6925 4325
+Wire Wire Line
+	6925 4325 6925 4375
+Wire Wire Line
+	6725 4675 7075 4675
+$Comp
+L LED:WS2812B D30
+U 1 1 5C26325C
+P 8325 4675
+F 0 "D30" H 8400 4925 50  0000 L CNN
+F 1 "WS2812B" H 8400 4425 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8375 4375 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8425 4300 50  0001 L TNN
+	1    8325 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C10
+U 1 1 5C263263
+P 7875 4475
+F 0 "C10" H 7967 4521 50  0000 L CNN
+F 1 "1uF" H 7967 4430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7875 4475 50  0001 C CNN
+F 3 "" H 7875 4475 50  0001 C CNN
+	1    7875 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7875 4575 7875 5025
+Wire Wire Line
+	7875 5025 8325 5025
+Wire Wire Line
+	8325 5025 8325 4975
+Wire Wire Line
+	8325 4375 8325 4325
+Wire Wire Line
+	8325 4325 7875 4325
+Wire Wire Line
+	7875 4325 7875 4375
+Wire Wire Line
+	7675 4675 8025 4675
+$Comp
+L LED:WS2812B D31
+U 1 1 5C263271
+P 9275 4675
+F 0 "D31" H 9350 4925 50  0000 L CNN
+F 1 "WS2812B" H 9350 4425 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9325 4375 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9375 4300 50  0001 L TNN
+	1    9275 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C11
+U 1 1 5C263278
+P 8825 4475
+F 0 "C11" H 8917 4521 50  0000 L CNN
+F 1 "1uF" H 8917 4430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8825 4475 50  0001 C CNN
+F 3 "" H 8825 4475 50  0001 C CNN
+	1    8825 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 4575 8825 5025
+Wire Wire Line
+	8825 5025 9275 5025
+Wire Wire Line
+	9275 5025 9275 4975
+Wire Wire Line
+	9275 4375 9275 4325
+Wire Wire Line
+	9275 4325 8825 4325
+Wire Wire Line
+	8825 4325 8825 4375
+Wire Wire Line
+	8625 4675 8975 4675
+$Comp
+L LED:WS2812B D32
+U 1 1 5C263286
+P 7375 5875
+F 0 "D32" H 7450 6125 50  0000 L CNN
+F 1 "WS2812B" H 7450 5625 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7425 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7475 5500 50  0001 L TNN
+	1    7375 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C12
+U 1 1 5C26328D
+P 6925 5675
+F 0 "C12" H 7017 5721 50  0000 L CNN
+F 1 "1uF" H 7017 5630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6925 5675 50  0001 C CNN
+F 3 "" H 6925 5675 50  0001 C CNN
+	1    6925 5675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 5775 6925 6225
+Wire Wire Line
+	6925 6225 7375 6225
+Wire Wire Line
+	7375 6225 7375 6175
+Wire Wire Line
+	7375 5575 7375 5525
+Wire Wire Line
+	7375 5525 6925 5525
+$Comp
+L LED:WS2812B D33
+U 1 1 5C263299
+P 8325 5875
+F 0 "D33" H 8400 6125 50  0000 L CNN
+F 1 "WS2812B" H 8400 5625 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8375 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8425 5500 50  0001 L TNN
+	1    8325 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C13
+U 1 1 5C2632A0
+P 7875 5675
+F 0 "C13" H 7967 5721 50  0000 L CNN
+F 1 "1uF" H 7967 5630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7875 5675 50  0001 C CNN
+F 3 "" H 7875 5675 50  0001 C CNN
+	1    7875 5675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7875 5775 7875 6225
+Wire Wire Line
+	7875 6225 8325 6225
+Wire Wire Line
+	8325 6225 8325 6175
+Wire Wire Line
+	8325 5575 8325 5525
+Wire Wire Line
+	8325 5525 7875 5525
+Wire Wire Line
+	7875 5525 7875 5575
+Wire Wire Line
+	7675 5875 8025 5875
+$Comp
+L LED:WS2812B D34
+U 1 1 5C2632AE
+P 9275 5875
+F 0 "D34" H 9350 6125 50  0000 L CNN
+F 1 "WS2812B" H 9350 5625 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9325 5575 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9375 5500 50  0001 L TNN
+	1    9275 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C14
+U 1 1 5C2632B5
+P 8825 5675
+F 0 "C14" H 8917 5721 50  0000 L CNN
+F 1 "1uF" H 8917 5630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8825 5675 50  0001 C CNN
+F 3 "" H 8825 5675 50  0001 C CNN
+	1    8825 5675
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 5775 8825 6225
+Wire Wire Line
+	8825 6225 9275 6225
+Wire Wire Line
+	9275 6225 9275 6175
+Wire Wire Line
+	9275 5575 9275 5525
+Wire Wire Line
+	9275 5525 8825 5525
+Wire Wire Line
+	8825 5525 8825 5575
+Wire Wire Line
+	8625 5875 8975 5875
+Wire Wire Line
+	9575 5875 9725 5875
+Wire Wire Line
+	9725 5875 9725 4675
+Wire Wire Line
+	9725 4675 9575 4675
+Wire Wire Line
+	7075 5875 6650 5875
+Wire Wire Line
+	7375 4325 7875 4325
+Connection ~ 7375 4325
+Connection ~ 7875 4325
+Wire Wire Line
+	8325 4325 8825 4325
+Connection ~ 8325 4325
+Connection ~ 8825 4325
+Wire Wire Line
+	7375 5025 7875 5025
+Connection ~ 7375 5025
+Connection ~ 7875 5025
+Wire Wire Line
+	8325 5025 8825 5025
+Connection ~ 8325 5025
+Connection ~ 8825 5025
+$Comp
+L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0103
+U 1 1 5C2632D3
+P 6925 4275
+F 0 "#PWR0103" H 6925 4125 50  0001 C CNN
+F 1 "VCC" H 6925 4425 50  0000 C CNN
+F 2 "" H 6925 4275 50  0000 C CNN
+F 3 "" H 6925 4275 50  0000 C CNN
+	1    6925 4275
+	1    0    0    -1  
+$EndComp
+Connection ~ 6925 4325
+Wire Wire Line
+	6925 4325 6925 4275
+$Comp
+L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0104
+U 1 1 5C2632DB
+P 6925 5500
+F 0 "#PWR0104" H 6925 5350 50  0001 C CNN
+F 1 "VCC" H 6925 5650 50  0000 C CNN
+F 2 "" H 6925 5500 50  0000 C CNN
+F 3 "" H 6925 5500 50  0000 C CNN
+	1    6925 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6925 5525
+Wire Wire Line
+	6925 5525 6925 5500
+Wire Wire Line
+	6925 5525 6925 5575
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0105
+U 1 1 5C2632E4
+P 6925 6275
+F 0 "#PWR0105" H 6925 6025 50  0001 C CNN
+F 1 "GND" H 6925 6125 50  0000 C CNN
+F 2 "" H 6925 6275 50  0000 C CNN
+F 3 "" H 6925 6275 50  0000 C CNN
+	1    6925 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 6275 6925 6225
+Connection ~ 6925 6225
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0106
+U 1 1 5C2632EC
+P 6925 5075
+F 0 "#PWR0106" H 6925 4825 50  0001 C CNN
+F 1 "GND" H 6925 4925 50  0000 C CNN
+F 2 "" H 6925 5075 50  0000 C CNN
+F 3 "" H 6925 5075 50  0000 C CNN
+	1    6925 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6925 5075 6925 5025
+Connection ~ 6925 5025
+Wire Wire Line
+	7375 5525 7875 5525
+Connection ~ 7375 5525
+Connection ~ 7875 5525
+Wire Wire Line
+	8325 5525 8825 5525
+Connection ~ 8325 5525
+Connection ~ 8825 5525
+Wire Wire Line
+	8825 6225 8325 6225
+Connection ~ 8825 6225
+Connection ~ 8325 6225
+Wire Wire Line
+	7875 6225 7375 6225
+Connection ~ 7875 6225
+Connection ~ 7375 6225
 $EndSCHEMATC
