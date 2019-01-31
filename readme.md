@@ -7,5 +7,5 @@ the firmware for the keyboard is [QMK](https://github.com/qmk/qmk_firmware/tree/
 
 To edit these, you need kicad nightly at least `version 5.0-dev-unknown-9241a39~61~ubuntu17.10.1, release build` or equivalente for your OS
 
-![top render](images/top.png)
-![bottom render](images/bot.png)
+![top render](images/top.png?)
+![bottom render](images/bot.png?)
