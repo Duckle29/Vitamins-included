@@ -58,8 +58,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW40","Socket","Kailh-socket",66.650000,-54.950000,0.000000,bottom
 "SW41","Socket","Kailh-socket",85.700000,-54.950000,0.000000,bottom
 "SW42","Socket","Kailh-socket",104.750000,-54.950000,0.000000,bottom
-"SW43","Socket","Kailh-socket",19.025000,-74.000000,0.000000,bottom
 "SW43","Socket","Kailh-socket",9.500000,-74.000000,180.000000,bottom
+"SW43","Socket","Kailh-socket",19.025000,-74.000000,0.000000,bottom
 "SW44","Socket","Kailh-socket",28.550000,-74.000000,180.000000,bottom
 "SW45","Socket","Kailh-socket",47.600000,-74.000000,180.000000,bottom
 "SW46","Socket","Kailh-socket",66.650000,-74.000000,180.000000,bottom
