@@ -17,23 +17,23 @@ $EndDescr
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR01
 U 1 1 57D4A6E4
-P 4675 1175
-F 0 "#PWR01" H 4675 1025 50  0001 C CNN
-F 1 "VCC" H 4675 1325 50  0000 C CNN
-F 2 "" H 4675 1175 50  0000 C CNN
-F 3 "" H 4675 1175 50  0000 C CNN
-	1    4675 1175
+P 4675 1000
+F 0 "#PWR01" H 4675 850 50  0001 C CNN
+F 1 "VCC" H 4675 1150 50  0000 C CNN
+F 2 "" H 4675 1000 50  0000 C CNN
+F 3 "" H 4675 1000 50  0000 C CNN
+	1    4675 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR02
 U 1 1 57D4A7DC
-P 5000 1375
-F 0 "#PWR02" H 5000 1125 50  0001 C CNN
-F 1 "GND" H 5000 1225 50  0000 C CNN
-F 2 "" H 5000 1375 50  0000 C CNN
-F 3 "" H 5000 1375 50  0000 C CNN
-	1    5000 1375
+P 4675 1400
+F 0 "#PWR02" H 4675 1150 50  0001 C CNN
+F 1 "GND" H 4675 1250 50  0000 C CNN
+F 2 "" H 4675 1400 50  0000 C CNN
+F 3 "" H 4675 1400 50  0000 C CNN
+	1    4675 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -171,17 +171,6 @@ F 3 "" H 1050 1800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vitamins_included-rescue:Conn_01x04-RESCUE-lets_split_panel-lets_split_panel-rescue P4
-U 1 1 59F16640
-P 5300 1225
-F 0 "P4" H 5225 725 50  0000 C CNN
-F 1 "SJ-43514-SMT" H 5219 891 50  0000 C CNN
-F 2 "Connectors:SJ-4351X-SMT" H 5300 1225 50  0001 C CNN
-F 3 "" H 5300 1225 50  0001 C CNN
-	1    5300 1225
-	1    0    0    1   
-$EndComp
-$Comp
 L vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U1
 U 1 1 5A0C4D11
 P 3825 4650
@@ -285,12 +274,12 @@ $EndComp
 $Comp
 L vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR012
 U 1 1 5A0EAD14
-P 1775 4150
-F 0 "#PWR012" H 1775 4000 50  0001 C CNN
-F 1 "VBUS" H 1790 4323 50  0000 C CNN
-F 2 "" H 1775 4150 50  0001 C CNN
-F 3 "" H 1775 4150 50  0001 C CNN
-	1    1775 4150
+P 1775 4450
+F 0 "#PWR012" H 1775 4300 50  0001 C CNN
+F 1 "VBUS" H 1790 4623 50  0000 C CNN
+F 2 "" H 1775 4450 50  0001 C CNN
+F 3 "" H 1775 4450 50  0001 C CNN
+	1    1775 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -307,12 +296,12 @@ $EndComp
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR014
 U 1 1 5A0EC513
-P 1125 7200
-F 0 "#PWR014" H 1125 6950 50  0001 C CNN
-F 1 "GND" H 1125 7050 50  0000 C CNN
-F 2 "" H 1125 7200 50  0000 C CNN
-F 3 "" H 1125 7200 50  0000 C CNN
-	1    1125 7200
+P 1125 6100
+F 0 "#PWR014" H 1125 5850 50  0001 C CNN
+F 1 "GND" H 1125 5950 50  0000 C CNN
+F 2 "" H 1125 6100 50  0000 C CNN
+F 3 "" H 1125 6100 50  0000 C CNN
+	1    1125 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -396,8 +385,6 @@ Wire Wire Line
 Wire Wire Line
 	5175 6300 5250 6300
 Wire Wire Line
-	5175 6200 5250 6200
-Wire Wire Line
 	5175 5950 5250 5950
 Wire Wire Line
 	5175 5800 5250 5800
@@ -451,9 +438,9 @@ Wire Wire Line
 Wire Wire Line
 	3050 5400 3225 5400
 Wire Wire Line
-	1775 4200 1775 4150
+	1775 4500 1775 4450
 Wire Wire Line
-	1725 4200 1775 4200
+	1725 4500 1775 4500
 Wire Wire Line
 	3575 5200 2675 5200
 Wire Wire Line
@@ -492,8 +479,6 @@ Wire Wire Line
 Connection ~ 2950 4200
 Wire Wire Line
 	2950 4300 3575 4300
-Wire Wire Line
-	2300 1275 2525 1275
 Connection ~ 3425 6400
 Wire Wire Line
 	3425 6300 3525 6300
@@ -517,11 +502,11 @@ Wire Wire Line
 Wire Wire Line
 	1400 1125 1400 1175
 Wire Wire Line
-	4675 1175 4675 1225
+	4675 1000 4675 1050
 Wire Wire Line
-	5000 1325 5100 1325
+	4675 1350 4775 1350
 Wire Wire Line
-	5000 1375 5000 1325
+	4675 1400 4675 1350
 Connection ~ 3625 1925
 Connection ~ 3525 1825
 Wire Wire Line
@@ -549,7 +534,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 6250 3425 6300
 Wire Wire Line
-	4675 1225 5100 1225
+	4675 1050 4775 1050
 Text Label 5250 6700 0    60   ~ 0
 row3
 Text Label 5250 6600 0    60   ~ 0
@@ -561,7 +546,7 @@ col1
 Text Label 5250 6300 0    60   ~ 0
 col0
 Text Label 5250 6200 0    60   ~ 0
-wd2812-in
+WS2812-in
 Text Label 5250 5950 0    60   ~ 0
 col2
 Text Label 5250 5800 0    60   ~ 0
@@ -624,10 +609,6 @@ Text Label 3325 4450 2    60   ~ 0
 ~Reset
 Text Label 700  1800 0    60   ~ 0
 buzz
-Text Label 850  1275 0    60   ~ 0
-wd2812-in
-Text Label 2525 1275 2    60   ~ 0
-SDA
 Text Label 3950 1825 2    60   ~ 0
 SDA
 Text Label 3200 1825 0    60   ~ 0
@@ -637,28 +618,17 @@ SCL/D3
 Text Label 3075 1925 0    60   ~ 0
 SCL/D3
 Wire Wire Line
-	5100 1025 4875 1025
-Text Label 4875 1025 0    60   ~ 0
+	4775 1250 4550 1250
+Text Label 4550 1250 0    60   ~ 0
 SDA
 Wire Wire Line
-	5100 1125 4750 1125
-Text Label 4750 1125 0    60   ~ 0
+	4775 1150 4425 1150
+Text Label 4425 1150 0    60   ~ 0
 SCL/D3
 Text Label 2375 5100 0    60   ~ 0
 Dd-
 Text Label 2375 5200 0    60   ~ 0
 Dd+
-$Comp
-L vitamins_included-rescue:Conn_01x01-RESCUE-lets_split_panel-lets_split_panel-rescue J7
-U 1 1 5A14B17F
-P 2100 1275
-F 0 "J7" H 2020 1050 50  0000 C CNN
-F 1 "Sig" H 2020 1141 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 2100 1275 50  0001 C CNN
-F 3 "~" H 2100 1275 50  0001 C CNN
-	1    2100 1275
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:D_x2_KCom_AAK D1
 U 1 1 5A17110C
@@ -1342,56 +1312,12 @@ Wire Wire Line
 	5175 4400 5475 4400
 Wire Wire Line
 	950  1800 700  1800
-$Comp
-L vitamins_included-rescue:USB_C_Receptacle-Connector J9
-U 1 1 5B5A4B97
-P 1125 5500
-F 0 "J9" H 1230 7067 50  0000 C CNN
-F 1 "UTC16-G" H 1230 6976 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1275 5500 50  0001 C CNN
-F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1275 5500 50  0001 C CNN
-	1    1125 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1725 5000 1775 5000
 Wire Wire Line
 	1775 5000 1775 5100
 Wire Wire Line
 	1775 5100 1725 5100
-Wire Wire Line
-	1775 4200 1775 4300
-Wire Wire Line
-	1775 4500 1725 4500
-Connection ~ 1775 4200
-Wire Wire Line
-	1725 4400 1775 4400
-Connection ~ 1775 4400
-Wire Wire Line
-	1775 4400 1775 4500
-Wire Wire Line
-	1725 4300 1775 4300
-Connection ~ 1775 4300
-Wire Wire Line
-	1775 4300 1775 4400
-Wire Wire Line
-	825  7100 825  7150
-Wire Wire Line
-	825  7150 925  7150
-Wire Wire Line
-	1225 7150 1225 7100
-Wire Wire Line
-	1125 7100 1125 7150
-Connection ~ 1125 7150
-Wire Wire Line
-	1125 7150 1225 7150
-Wire Wire Line
-	1125 7150 1125 7200
-Wire Wire Line
-	1025 7100 1025 7150
-Connection ~ 1025 7150
-Wire Wire Line
-	1025 7150 1125 7150
 Wire Wire Line
 	1725 5200 1775 5200
 Wire Wire Line
@@ -1404,11 +1330,6 @@ Connection ~ 1775 5200
 Wire Wire Line
 	1775 5100 2475 5100
 Connection ~ 1775 5100
-Wire Wire Line
-	925  7100 925  7150
-Connection ~ 925  7150
-Wire Wire Line
-	925  7150 1025 7150
 Wire Wire Line
 	5175 4500 5475 4500
 $Comp
@@ -1507,318 +1428,417 @@ F 3 "" H 5700 5550 50  0000 C CNN
 	1    5700 5550
 	1    0    0    -1  
 $EndComp
-Text Label 6725 4675 2    60   ~ 0
-wd2812-in
-Text Label 6650 5875 2    60   ~ 0
-SDA
 $Comp
 L LED:WS2812B D29
 U 1 1 5C263247
-P 7375 4675
-F 0 "D29" H 7450 4925 50  0000 L CNN
-F 1 "WS2812B" H 7450 4425 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7425 4375 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7475 4300 50  0001 L TNN
-	1    7375 4675
+P 8100 4550
+F 0 "D29" H 8175 4800 50  0000 L CNN
+F 1 "WS2812B" H 8175 4300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8150 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 4175 50  0001 L TNN
+	1    8100 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C9
 U 1 1 5C26324E
-P 6925 4475
-F 0 "C9" H 7017 4521 50  0000 L CNN
-F 1 "1uF" H 7017 4430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6925 4475 50  0001 C CNN
-F 3 "" H 6925 4475 50  0001 C CNN
-	1    6925 4475
+P 7650 4350
+F 0 "C9" H 7742 4396 50  0000 L CNN
+F 1 "1uF" H 7742 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 4350 50  0001 C CNN
+F 3 "" H 7650 4350 50  0001 C CNN
+	1    7650 4350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6925 4575 6925 5025
+	7650 4450 7650 4900
 Wire Wire Line
-	6925 5025 7375 5025
+	7650 4900 8100 4900
 Wire Wire Line
-	7375 5025 7375 4975
+	8100 4900 8100 4850
 Wire Wire Line
-	7375 4375 7375 4325
+	8100 4250 8100 4200
 Wire Wire Line
-	7375 4325 6925 4325
+	8100 4200 7650 4200
 Wire Wire Line
-	6925 4325 6925 4375
+	7650 4200 7650 4250
 Wire Wire Line
-	6725 4675 7075 4675
+	7450 4550 7800 4550
 $Comp
 L LED:WS2812B D30
 U 1 1 5C26325C
-P 8325 4675
-F 0 "D30" H 8400 4925 50  0000 L CNN
-F 1 "WS2812B" H 8400 4425 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8375 4375 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8425 4300 50  0001 L TNN
-	1    8325 4675
+P 9050 4550
+F 0 "D30" H 9125 4800 50  0000 L CNN
+F 1 "WS2812B" H 9125 4300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9100 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9150 4175 50  0001 L TNN
+	1    9050 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C10
 U 1 1 5C263263
-P 7875 4475
-F 0 "C10" H 7967 4521 50  0000 L CNN
-F 1 "1uF" H 7967 4430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7875 4475 50  0001 C CNN
-F 3 "" H 7875 4475 50  0001 C CNN
-	1    7875 4475
+P 8600 4350
+F 0 "C10" H 8692 4396 50  0000 L CNN
+F 1 "1uF" H 8692 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 4350 50  0001 C CNN
+F 3 "" H 8600 4350 50  0001 C CNN
+	1    8600 4350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7875 4575 7875 5025
+	8600 4450 8600 4900
 Wire Wire Line
-	7875 5025 8325 5025
+	8600 4900 9050 4900
 Wire Wire Line
-	8325 5025 8325 4975
+	9050 4900 9050 4850
 Wire Wire Line
-	8325 4375 8325 4325
+	9050 4250 9050 4200
 Wire Wire Line
-	8325 4325 7875 4325
+	9050 4200 8600 4200
 Wire Wire Line
-	7875 4325 7875 4375
+	8600 4200 8600 4250
 Wire Wire Line
-	7675 4675 8025 4675
+	8400 4550 8750 4550
 $Comp
 L LED:WS2812B D31
 U 1 1 5C263271
-P 9275 4675
-F 0 "D31" H 9350 4925 50  0000 L CNN
-F 1 "WS2812B" H 9350 4425 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9325 4375 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9375 4300 50  0001 L TNN
-	1    9275 4675
+P 10000 4550
+F 0 "D31" H 10075 4800 50  0000 L CNN
+F 1 "WS2812B" H 10075 4300 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10050 4250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10100 4175 50  0001 L TNN
+	1    10000 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C11
 U 1 1 5C263278
-P 8825 4475
-F 0 "C11" H 8917 4521 50  0000 L CNN
-F 1 "1uF" H 8917 4430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8825 4475 50  0001 C CNN
-F 3 "" H 8825 4475 50  0001 C CNN
-	1    8825 4475
+P 9550 4350
+F 0 "C11" H 9642 4396 50  0000 L CNN
+F 1 "1uF" H 9642 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 4350 50  0001 C CNN
+F 3 "" H 9550 4350 50  0001 C CNN
+	1    9550 4350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8825 4575 8825 5025
+	9550 4450 9550 4900
 Wire Wire Line
-	8825 5025 9275 5025
+	9550 4900 10000 4900
 Wire Wire Line
-	9275 5025 9275 4975
+	10000 4900 10000 4850
 Wire Wire Line
-	9275 4375 9275 4325
+	10000 4250 10000 4200
 Wire Wire Line
-	9275 4325 8825 4325
+	10000 4200 9550 4200
 Wire Wire Line
-	8825 4325 8825 4375
+	9550 4200 9550 4250
 Wire Wire Line
-	8625 4675 8975 4675
+	9350 4550 9700 4550
 $Comp
 L LED:WS2812B D32
 U 1 1 5C263286
-P 7375 5875
-F 0 "D32" H 7450 6125 50  0000 L CNN
-F 1 "WS2812B" H 7450 5625 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7425 5575 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7475 5500 50  0001 L TNN
-	1    7375 5875
-	1    0    0    -1  
+P 8100 5750
+F 0 "D32" H 8175 6000 50  0000 L CNN
+F 1 "WS2812B" H 8175 5500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8150 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8200 5375 50  0001 L TNN
+	1    8100 5750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C12
 U 1 1 5C26328D
-P 6925 5675
-F 0 "C12" H 7017 5721 50  0000 L CNN
-F 1 "1uF" H 7017 5630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6925 5675 50  0001 C CNN
-F 3 "" H 6925 5675 50  0001 C CNN
-	1    6925 5675
+P 7650 5550
+F 0 "C12" H 7742 5596 50  0000 L CNN
+F 1 "1uF" H 7742 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7650 5550 50  0001 C CNN
+F 3 "" H 7650 5550 50  0001 C CNN
+	1    7650 5550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6925 5775 6925 6225
+	7650 5650 7650 6100
 Wire Wire Line
-	6925 6225 7375 6225
+	7650 6100 8100 6100
 Wire Wire Line
-	7375 6225 7375 6175
+	8100 6100 8100 6050
 Wire Wire Line
-	7375 5575 7375 5525
+	8100 5450 8100 5400
 Wire Wire Line
-	7375 5525 6925 5525
+	8100 5400 7650 5400
 $Comp
 L LED:WS2812B D33
 U 1 1 5C263299
-P 8325 5875
-F 0 "D33" H 8400 6125 50  0000 L CNN
-F 1 "WS2812B" H 8400 5625 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8375 5575 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8425 5500 50  0001 L TNN
-	1    8325 5875
-	1    0    0    -1  
+P 9050 5750
+F 0 "D33" H 9125 6000 50  0000 L CNN
+F 1 "WS2812B" H 9125 5500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9100 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9150 5375 50  0001 L TNN
+	1    9050 5750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C13
 U 1 1 5C2632A0
-P 7875 5675
-F 0 "C13" H 7967 5721 50  0000 L CNN
-F 1 "1uF" H 7967 5630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7875 5675 50  0001 C CNN
-F 3 "" H 7875 5675 50  0001 C CNN
-	1    7875 5675
+P 8600 5550
+F 0 "C13" H 8692 5596 50  0000 L CNN
+F 1 "1uF" H 8692 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 5550 50  0001 C CNN
+F 3 "" H 8600 5550 50  0001 C CNN
+	1    8600 5550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7875 5775 7875 6225
+	8600 5650 8600 6100
 Wire Wire Line
-	7875 6225 8325 6225
+	8600 6100 9050 6100
 Wire Wire Line
-	8325 6225 8325 6175
+	9050 6100 9050 6050
 Wire Wire Line
-	8325 5575 8325 5525
+	9050 5450 9050 5400
 Wire Wire Line
-	8325 5525 7875 5525
+	9050 5400 8600 5400
 Wire Wire Line
-	7875 5525 7875 5575
+	8600 5400 8600 5450
 Wire Wire Line
-	7675 5875 8025 5875
+	8400 5750 8750 5750
 $Comp
 L LED:WS2812B D34
 U 1 1 5C2632AE
-P 9275 5875
-F 0 "D34" H 9350 6125 50  0000 L CNN
-F 1 "WS2812B" H 9350 5625 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9325 5575 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9375 5500 50  0001 L TNN
-	1    9275 5875
-	1    0    0    -1  
+P 10000 5750
+F 0 "D34" H 10075 6000 50  0000 L CNN
+F 1 "WS2812B" H 10075 5500 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10050 5450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10100 5375 50  0001 L TNN
+	1    10000 5750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C14
 U 1 1 5C2632B5
-P 8825 5675
-F 0 "C14" H 8917 5721 50  0000 L CNN
-F 1 "1uF" H 8917 5630 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8825 5675 50  0001 C CNN
-F 3 "" H 8825 5675 50  0001 C CNN
-	1    8825 5675
+P 9550 5550
+F 0 "C14" H 9642 5596 50  0000 L CNN
+F 1 "1uF" H 9642 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 5550 50  0001 C CNN
+F 3 "" H 9550 5550 50  0001 C CNN
+	1    9550 5550
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8825 5775 8825 6225
+	9550 5650 9550 6100
 Wire Wire Line
-	8825 6225 9275 6225
+	9550 6100 10000 6100
 Wire Wire Line
-	9275 6225 9275 6175
+	10000 6100 10000 6050
 Wire Wire Line
-	9275 5575 9275 5525
+	10000 5450 10000 5400
 Wire Wire Line
-	9275 5525 8825 5525
+	10000 5400 9550 5400
 Wire Wire Line
-	8825 5525 8825 5575
+	9550 5400 9550 5450
 Wire Wire Line
-	8625 5875 8975 5875
+	9350 5750 9700 5750
 Wire Wire Line
-	9575 5875 9725 5875
+	10300 5750 10450 5750
 Wire Wire Line
-	9725 5875 9725 4675
+	10450 5750 10450 4550
 Wire Wire Line
-	9725 4675 9575 4675
+	10450 4550 10300 4550
 Wire Wire Line
-	7075 5875 6650 5875
+	7800 5750 7375 5750
 Wire Wire Line
-	7375 4325 7875 4325
-Connection ~ 7375 4325
-Connection ~ 7875 4325
+	8100 4200 8600 4200
+Connection ~ 8100 4200
+Connection ~ 8600 4200
 Wire Wire Line
-	8325 4325 8825 4325
-Connection ~ 8325 4325
-Connection ~ 8825 4325
+	9050 4200 9550 4200
+Connection ~ 9050 4200
+Connection ~ 9550 4200
 Wire Wire Line
-	7375 5025 7875 5025
-Connection ~ 7375 5025
-Connection ~ 7875 5025
+	8100 4900 8600 4900
+Connection ~ 8100 4900
+Connection ~ 8600 4900
 Wire Wire Line
-	8325 5025 8825 5025
-Connection ~ 8325 5025
-Connection ~ 8825 5025
+	9050 4900 9550 4900
+Connection ~ 9050 4900
+Connection ~ 9550 4900
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0103
 U 1 1 5C2632D3
-P 6925 4275
-F 0 "#PWR0103" H 6925 4125 50  0001 C CNN
-F 1 "VCC" H 6925 4425 50  0000 C CNN
-F 2 "" H 6925 4275 50  0000 C CNN
-F 3 "" H 6925 4275 50  0000 C CNN
-	1    6925 4275
+P 7650 4150
+F 0 "#PWR0103" H 7650 4000 50  0001 C CNN
+F 1 "VCC" H 7650 4300 50  0000 C CNN
+F 2 "" H 7650 4150 50  0000 C CNN
+F 3 "" H 7650 4150 50  0000 C CNN
+	1    7650 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 6925 4325
+Connection ~ 7650 4200
 Wire Wire Line
-	6925 4325 6925 4275
+	7650 4200 7650 4150
 $Comp
 L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0104
 U 1 1 5C2632DB
-P 6925 5500
-F 0 "#PWR0104" H 6925 5350 50  0001 C CNN
-F 1 "VCC" H 6925 5650 50  0000 C CNN
-F 2 "" H 6925 5500 50  0000 C CNN
-F 3 "" H 6925 5500 50  0000 C CNN
-	1    6925 5500
+P 7650 5375
+F 0 "#PWR0104" H 7650 5225 50  0001 C CNN
+F 1 "VCC" H 7650 5525 50  0000 C CNN
+F 2 "" H 7650 5375 50  0000 C CNN
+F 3 "" H 7650 5375 50  0000 C CNN
+	1    7650 5375
 	1    0    0    -1  
 $EndComp
-Connection ~ 6925 5525
+Connection ~ 7650 5400
 Wire Wire Line
-	6925 5525 6925 5500
+	7650 5400 7650 5375
 Wire Wire Line
-	6925 5525 6925 5575
+	7650 5400 7650 5450
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0105
 U 1 1 5C2632E4
-P 6925 6275
-F 0 "#PWR0105" H 6925 6025 50  0001 C CNN
-F 1 "GND" H 6925 6125 50  0000 C CNN
-F 2 "" H 6925 6275 50  0000 C CNN
-F 3 "" H 6925 6275 50  0000 C CNN
-	1    6925 6275
+P 7650 6150
+F 0 "#PWR0105" H 7650 5900 50  0001 C CNN
+F 1 "GND" H 7650 6000 50  0000 C CNN
+F 2 "" H 7650 6150 50  0000 C CNN
+F 3 "" H 7650 6150 50  0000 C CNN
+	1    7650 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6925 6275 6925 6225
-Connection ~ 6925 6225
+	7650 6150 7650 6100
+Connection ~ 7650 6100
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0106
 U 1 1 5C2632EC
-P 6925 5075
-F 0 "#PWR0106" H 6925 4825 50  0001 C CNN
-F 1 "GND" H 6925 4925 50  0000 C CNN
-F 2 "" H 6925 5075 50  0000 C CNN
-F 3 "" H 6925 5075 50  0000 C CNN
-	1    6925 5075
+P 7650 4950
+F 0 "#PWR0106" H 7650 4700 50  0001 C CNN
+F 1 "GND" H 7650 4800 50  0000 C CNN
+F 2 "" H 7650 4950 50  0000 C CNN
+F 3 "" H 7650 4950 50  0000 C CNN
+	1    7650 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6925 5075 6925 5025
-Connection ~ 6925 5025
+	7650 4950 7650 4900
+Connection ~ 7650 4900
 Wire Wire Line
-	7375 5525 7875 5525
-Connection ~ 7375 5525
-Connection ~ 7875 5525
+	8100 5400 8600 5400
+Connection ~ 8100 5400
+Connection ~ 8600 5400
 Wire Wire Line
-	8325 5525 8825 5525
-Connection ~ 8325 5525
-Connection ~ 8825 5525
+	9050 5400 9550 5400
+Connection ~ 9050 5400
+Connection ~ 9550 5400
 Wire Wire Line
-	8825 6225 8325 6225
-Connection ~ 8825 6225
-Connection ~ 8325 6225
+	9550 6100 9050 6100
+Connection ~ 9550 6100
+Connection ~ 9050 6100
 Wire Wire Line
-	7875 6225 7375 6225
-Connection ~ 7875 6225
-Connection ~ 7375 6225
+	8600 6100 8100 6100
+Connection ~ 8600 6100
+Connection ~ 8100 6100
+$Comp
+L Connector:AudioJack4 P4
+U 1 1 5C94D631
+P 4975 1250
+F 0 "P4" H 4646 1133 50  0000 R CNN
+F 1 "SJ-43514-SMT" H 4646 1224 50  0000 R CNN
+F 2 "UJ31-CH-31-SMT-TR:SJ-4351X-SMT" H 4975 1250 50  0001 C CNN
+F 3 "~" H 4975 1250 50  0001 C CNN
+	1    4975 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J9
+U 1 1 5C9C7993
+P 1125 5100
+F 0 "J9" H 1230 5967 50  0000 C CNN
+F 1 "UTC16-G" H 1230 5876 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1275 5100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1275 5100 50  0001 C CNN
+	1    1125 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 6100 1125 6050
+Wire Wire Line
+	1125 6050 825  6050
+Wire Wire Line
+	825  6050 825  6000
+Connection ~ 1125 6050
+Wire Wire Line
+	1125 6050 1125 6000
+Wire Wire Line
+	7225 5500 7175 5500
+Wire Wire Line
+	7225 5550 7225 5500
+Wire Wire Line
+	7225 6000 7225 5950
+Wire Wire Line
+	7175 6000 7225 6000
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5CC4982B
+P 7225 5750
+AR Path="/5A0DF911/5CC4982B" Ref="JP?"  Part="1" 
+AR Path="/5A0DE9BD/5CC4982B" Ref="JP5"  Part="1" 
+F 0 "JP5" V 7271 5817 50  0000 L CNN
+F 1 "WS_OUT" V 7225 6000 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7225 5750 50  0001 C CNN
+F 3 "~" H 7225 5750 50  0001 C CNN
+	1    7225 5750
+	0    -1   -1   0   
+$EndComp
+Text Label 7175 5500 2    55   ~ 0
+SDA
+Text Label 7175 6000 2    55   ~ 0
+WS2812-out
+Wire Wire Line
+	7300 4300 7250 4300
+Wire Wire Line
+	7300 4350 7300 4300
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP?
+U 1 1 5CC49839
+P 7300 4550
+AR Path="/5A0DF911/5CC49839" Ref="JP?"  Part="1" 
+AR Path="/5A0DE9BD/5CC49839" Ref="JP4"  Part="1" 
+F 0 "JP4" V 7346 4617 50  0000 L CNN
+F 1 "WS_MODE" V 7300 4800 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7300 4550 50  0001 C CNN
+F 3 "~" H 7300 4550 50  0001 C CNN
+	1    7300 4550
+	0    -1   -1   0   
+$EndComp
+Text Label 7250 4300 2    55   ~ 0
+SDA
+Text Label 7250 4800 2    55   ~ 0
+WS2812-in
+Wire Notes Line
+	10450 5175 10375 5100
+Wire Notes Line
+	10375 5100 10525 5100
+Wire Notes Line
+	10525 5100 10450 5175
+Wire Notes Line
+	7600 4550 7525 4625
+Wire Notes Line
+	7525 4625 7525 4475
+Wire Notes Line
+	7525 4475 7600 4550
+Wire Notes Line
+	7525 5750 7600 5675
+Wire Notes Line
+	7600 5675 7600 5825
+Wire Notes Line
+	7600 5825 7525 5750
+Text Label 850  1275 0    55   ~ 0
+WS2812-out
+Wire Wire Line
+	7250 4800 7300 4800
+Wire Wire Line
+	7300 4800 7300 4750
+Wire Wire Line
+	5250 6200 5175 6200
 $EndSCHEMATC
