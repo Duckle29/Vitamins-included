@@ -625,9 +625,9 @@ Wire Wire Line
 	4775 1150 4425 1150
 Text Label 4425 1150 0    60   ~ 0
 SCL/D3
-Text Label 2375 5100 0    60   ~ 0
+Text Label 2275 5100 0    60   ~ 0
 Dd-
-Text Label 2375 5200 0    60   ~ 0
+Text Label 2275 5200 0    60   ~ 0
 Dd+
 $Comp
 L Device:D_x2_KCom_AAK D1
@@ -1388,12 +1388,12 @@ Text Label 2375 2025 3    60   ~ 0
 $Comp
 L Device:LED_Small D27
 U 1 1 5B5D7908
-P 5350 5500
-F 0 "D27" H 5350 5295 50  0000 C CNN
-F 1 "red" H 5350 5386 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 5350 5500 50  0001 C CNN
-F 3 "~" V 5350 5500 50  0001 C CNN
-	1    5350 5500
+P 5600 5500
+F 0 "D27" H 5600 5295 50  0000 C CNN
+F 1 "SML-D12U1WT86" H 5600 5386 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" V 5600 5500 50  0001 C CNN
+F 3 "~" V 5600 5500 50  0001 C CNN
+	1    5600 5500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1401,31 +1401,31 @@ Wire Wire Line
 Wire Wire Line
 	5225 5600 5225 5500
 Wire Wire Line
-	5225 5500 5250 5500
+	5225 5500 5500 5500
 $Comp
 L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R15
 U 1 1 5B5E58FB
-P 5550 5500
-F 0 "R15" H 5575 5525 50  0000 L CNN
-F 1 "220R" H 5575 5450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5550 5500 50  0001 C CNN
-F 3 "" H 5550 5500 50  0000 C CNN
-	1    5550 5500
-	0    -1   -1   0   
+P 5800 5500
+F 0 "R15" H 5825 5525 50  0000 L CNN
+F 1 "220R" H 5825 5450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 5500 50  0001 C CNN
+F 3 "" H 5800 5500 50  0000 C CNN
+	1    5800 5500
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	5650 5500 5700 5500
+	5900 5500 6025 5500
 Wire Wire Line
-	5700 5500 5700 5550
+	6025 5500 6025 5550
 $Comp
 L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0101
 U 1 1 5B621855
-P 5700 5550
-F 0 "#PWR0101" H 5700 5300 50  0001 C CNN
-F 1 "GND" H 5700 5400 50  0000 C CNN
-F 2 "" H 5700 5550 50  0000 C CNN
-F 3 "" H 5700 5550 50  0000 C CNN
-	1    5700 5550
+P 6025 5550
+F 0 "#PWR0101" H 6025 5300 50  0001 C CNN
+F 1 "GND" H 6025 5400 50  0000 C CNN
+F 2 "" H 6025 5550 50  0000 C CNN
+F 3 "" H 6025 5550 50  0000 C CNN
+	1    6025 5550
 	1    0    0    -1  
 $EndComp
 $Comp
