@@ -1841,4 +1841,50 @@ Wire Wire Line
 	7300 4800 7300 4750
 Wire Wire Line
 	5250 6200 5175 6200
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R18
+U 1 1 5D1F5D3C
+P 1900 4800
+F 0 "R18" H 1930 4820 50  0000 L CNN
+F 1 "5k1" H 1930 4760 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 4800 50  0001 C CNN
+F 3 "" H 1900 4800 50  0000 C CNN
+	1    1900 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R17
+U 1 1 5D1F5FF4
+P 1900 4700
+F 0 "R17" H 1930 4720 50  0000 L CNN
+F 1 "5k1" H 1930 4660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 4700 50  0001 C CNN
+F 3 "" H 1900 4700 50  0000 C CNN
+	1    1900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1725 4800 1800 4800
+Wire Wire Line
+	1725 4700 1800 4700
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0111
+U 1 1 5D209478
+P 2050 4850
+F 0 "#PWR0111" H 2050 4600 50  0001 C CNN
+F 1 "GND" H 2050 4700 50  0000 C CNN
+F 2 "" H 2050 4850 50  0000 C CNN
+F 3 "" H 2050 4850 50  0000 C CNN
+	1    2050 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4850 2050 4800
+Wire Wire Line
+	2050 4800 2000 4800
+Wire Wire Line
+	2000 4700 2050 4700
+Wire Wire Line
+	2050 4700 2050 4800
+Connection ~ 2050 4800
 $EndSCHEMATC

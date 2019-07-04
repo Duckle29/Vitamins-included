@@ -446,9 +446,9 @@ Text Label 2750 1950 2    55   ~ 0
 MISO
 Text Label 3250 2050 0    55   ~ 0
 MOSI
-Text Label 2200 5150 0    60   ~ 0
+Text Label 2125 5150 0    60   ~ 0
 Dd-
-Text Label 2200 5250 0    60   ~ 0
+Text Label 2125 5250 0    60   ~ 0
 Dd+
 Text Label 5900 3250 2    60   ~ 0
 row3
@@ -1745,4 +1745,56 @@ Wire Notes Line
 	7575 5350 7575 5500
 Wire Notes Line
 	7575 5500 7500 5425
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R?
+U 1 1 5D2EC9BB
+P 2200 4850
+AR Path="/5A0DE9BD/5D2EC9BB" Ref="R?"  Part="1" 
+AR Path="/5A0DF911/5D2EC9BB" Ref="R20"  Part="1" 
+F 0 "R20" H 2230 4870 50  0000 L CNN
+F 1 "5k1" H 2230 4810 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0000 C CNN
+	1    2200 4850
+	0    -1   1    0   
+$EndComp
+$Comp
+L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R?
+U 1 1 5D2EC9C2
+P 2200 4750
+AR Path="/5A0DE9BD/5D2EC9C2" Ref="R?"  Part="1" 
+AR Path="/5A0DF911/5D2EC9C2" Ref="R19"  Part="1" 
+F 0 "R19" H 2230 4770 50  0000 L CNN
+F 1 "5k1" H 2230 4710 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 4750 50  0001 C CNN
+F 3 "" H 2200 4750 50  0000 C CNN
+	1    2200 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2025 4850 2100 4850
+Wire Wire Line
+	2025 4750 2100 4750
+$Comp
+L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR?
+U 1 1 5D2EC9CB
+P 2350 4900
+AR Path="/5A0DE9BD/5D2EC9CB" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5D2EC9CB" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 2350 4650 50  0001 C CNN
+F 1 "GND" H 2350 4750 50  0000 C CNN
+F 2 "" H 2350 4900 50  0000 C CNN
+F 3 "" H 2350 4900 50  0000 C CNN
+	1    2350 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4900 2350 4850
+Wire Wire Line
+	2350 4850 2300 4850
+Wire Wire Line
+	2300 4750 2350 4750
+Wire Wire Line
+	2350 4750 2350 4850
+Connection ~ 2350 4850
 $EndSCHEMATC
