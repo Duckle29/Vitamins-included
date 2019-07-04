@@ -22,7 +22,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D23","BAV70","SOT-23",57.108000,-76.207000,270.000000,bottom
 "D24","BAV70","SOT-23",95.208000,-76.207000,270.000000,bottom
 "D26","SS210ATR","D_SMA",88.350000,-12.850000,0.000000,bottom
-"D28","red","LED_0603_1608Metric_Castellated",55.137500,-15.050000,180.000000,bottom
+"D28","SML-D12U1WT86","LED_0603_1608Metric_Castellated",55.137500,-15.050000,180.000000,bottom
 "D35","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",37.950000,-27.400000,180.000000,bottom
 "D36","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",19.400000,-45.400000,180.000000,bottom
 "D37","WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",38.100000,-64.500000,180.000000,bottom
@@ -40,6 +40,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R12","220R","R_0603_1608Metric",28.900000,-13.750000,180.000000,bottom
 "R14","220R","R_0603_1608Metric",38.850000,-22.600000,270.000000,bottom
 "R16","220R","R_0603_1608Metric",58.500000,-15.050000,0.000000,bottom
+"R19","5k1","R_0603_1608Metric",76.950000,-5.600000,180.000000,bottom
+"R20","5k1","R_0603_1608Metric",76.950000,-2.800000,180.000000,bottom
 "SW25","Socket","Kailh-socket",9.500000,-16.850000,0.000000,bottom
 "SW26","Socket","Kailh-socket",28.550000,-16.850000,0.000000,bottom
 "SW27","Socket","Kailh-socket",47.600000,-16.850000,0.000000,bottom
@@ -58,8 +60,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "SW40","Socket","Kailh-socket",66.650000,-54.950000,0.000000,bottom
 "SW41","Socket","Kailh-socket",85.700000,-54.950000,0.000000,bottom
 "SW42","Socket","Kailh-socket",104.750000,-54.950000,0.000000,bottom
-"SW43","Socket","Kailh-socket",9.500000,-74.000000,180.000000,bottom
 "SW43","Socket","Kailh-socket",19.025000,-74.000000,0.000000,bottom
+"SW43","Socket","Kailh-socket",9.500000,-74.000000,180.000000,bottom
 "SW44","Socket","Kailh-socket",28.550000,-74.000000,180.000000,bottom
 "SW45","Socket","Kailh-socket",47.600000,-74.000000,180.000000,bottom
 "SW46","Socket","Kailh-socket",66.650000,-74.000000,180.000000,bottom
