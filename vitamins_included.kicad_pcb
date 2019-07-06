@@ -1964,7 +1964,7 @@
       (net 25 GND))
     (pad S1 thru_hole oval (at -4.32 1.81 270) (size 2.1 1) (drill oval 1.7 0.6) (layers *.Cu *.Mask B.Paste)
       (net 25 GND))
-    (model ${KIPRJMOD}/3D-models/UTC016.step
+    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5808,7 +5808,7 @@
       (net 28 VBUS))
     (pad A12 smd rect (at 3.2 2.63) (size 0.6 1.16) (layers B.Cu B.Paste B.Mask)
       (net 25 GND))
-    (model ${KIPRJMOD}/3D-models/UTC016.step
+    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
