@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR01
+L power:VCC #PWR01
 U 1 1 57D4A6E4
 P 2150 5675
 F 0 "#PWR01" H 2150 5525 50  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 2150 5675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR02
+L power:GND #PWR02
 U 1 1 57D4A7DC
 P 2150 6075
 F 0 "#PWR02" H 2150 5825 50  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 2150 6075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR03
+L power:VCC #PWR03
 U 1 1 57D5E2B3
 P 2500 775
 F 0 "#PWR03" H 2500 625 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 2500 775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR04
+L power:GND #PWR04
 U 1 1 57D5FCCF
 P 2975 3700
 F 0 "#PWR04" H 2975 3450 50  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 2975 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue JP1
+L Device:Jumper JP1
 U 1 1 59DCDA50
 P 1325 5225
 F 0 "JP1" H 1325 5375 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 1325 5225 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR05
+L power:VCC #PWR05
 U 1 1 59DCE20A
 P 1375 4850
 F 0 "#PWR05" H 1375 4700 50  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 1375 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:Conn_01x03-RESCUE-lets_split_panel-lets_split_panel-rescue P3
+L Connector_Generic:Conn_01x03 P3
 U 1 1 59DDE6F8
 P 3750 5925
 AR Path="/59DDE6F8" Ref="P3"  Part="1" 
@@ -94,7 +94,7 @@ F 3 "" H 3750 5925 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR07
+L power:VCC #PWR07
 U 1 1 59DDEE69
 P 3500 5775
 F 0 "#PWR07" H 3500 5625 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 3500 5775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR08
+L power:GND #PWR08
 U 1 1 59DDF0E6
 P 3500 6075
 F 0 "#PWR08" H 3500 5825 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 3500 6075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR09
+L power:GND #PWR09
 U 1 1 59E67C6F
 P 3500 4425
 F 0 "#PWR09" H 3500 4175 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 3500 4425 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R3
+L Device:R_Small R3
 U 1 1 59E680B3
 P 3400 4175
 F 0 "R3" V 3325 4125 50  0000 L CNN
@@ -138,7 +138,7 @@ F 3 "" H 3400 4175 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vitamins_included-rescue:ATMega32U4-RESCUE-lets_split_panel-lets_split_panel-rescue U1
+L 8Bit-MCU:ATMega32U4 U1
 U 1 1 5A0C4D11
 P 3375 1550
 AR Path="/5A0C4D11" Ref="U1"  Part="1" 
@@ -151,7 +151,7 @@ F 3 "" H 5075 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:Crystal-RESCUE-lets_split_panel-lets_split_panel-rescue Y1
+L Device:Crystal Y1
 U 1 1 5A0DCE60
 P 3050 2500
 F 0 "Y1" V 3000 2625 50  0000 L CNN
@@ -162,7 +162,7 @@ F 3 "" H 3050 2500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR011
+L power:VBUS #PWR011
 U 1 1 5A0E0E89
 P 3025 775
 F 0 "#PWR011" H 3025 625 50  0001 C CNN
@@ -173,9 +173,11 @@ F 3 "" H 3025 775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C4
+L Device:C_Small C4
 U 1 1 5A0E35D4
 P 2975 3050
+AR Path="/5A0E35D4" Ref="C4"  Part="1" 
+AR Path="/5A0DE9BD/5A0E35D4" Ref="C4"  Part="1" 
 F 0 "C4" H 3067 3096 50  0000 L CNN
 F 1 "1uF" H 3067 3005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2975 3050 50  0001 C CNN
@@ -184,9 +186,11 @@ F 3 "" H 2975 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C2
+L Device:C_Small C2
 U 1 1 5A0E4445
 P 2875 2300
+AR Path="/5A0E4445" Ref="C2"  Part="1" 
+AR Path="/5A0DE9BD/5A0E4445" Ref="C2"  Part="1" 
 F 0 "C2" V 2800 2400 50  0000 C CNN
 F 1 "18pF" V 2775 2200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2875 2300 50  0001 C CNN
@@ -195,9 +199,11 @@ F 3 "" H 2875 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C3
+L Device:C_Small C3
 U 1 1 5A0E5B22
 P 2875 2700
+AR Path="/5A0E5B22" Ref="C3"  Part="1" 
+AR Path="/5A0DE9BD/5A0E5B22" Ref="C3"  Part="1" 
 F 0 "C3" V 3050 2700 50  0000 C CNN
 F 1 "18pF" V 2975 2700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2875 2700 50  0001 C CNN
@@ -206,7 +212,7 @@ F 3 "" H 2875 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R4
+L Device:R_Small R4
 U 1 1 5A0E8EB6
 P 2675 2000
 F 0 "R4" V 2700 2225 50  0000 R CNN
@@ -217,7 +223,7 @@ F 3 "" H 2675 2000 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R5
+L Device:R_Small R5
 U 1 1 5A0EA96D
 P 2675 2100
 F 0 "R5" V 2700 2325 50  0000 R CNN
@@ -228,7 +234,7 @@ F 3 "" H 2675 2100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L vitamins_included-rescue:VBUS-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR012
+L power:VBUS #PWR012
 U 1 1 5A0EAD14
 P 1925 1350
 F 0 "#PWR012" H 1925 1200 50  0001 C CNN
@@ -239,7 +245,7 @@ F 3 "" H 1925 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR013
+L power:GND #PWR013
 U 1 1 5A0EC3FC
 P 2600 2775
 F 0 "#PWR013" H 2600 2525 50  0001 C CNN
@@ -250,7 +256,7 @@ F 3 "" H 2600 2775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR014
+L power:GND #PWR014
 U 1 1 5A0EC513
 P 1275 3000
 F 0 "#PWR014" H 1275 2750 50  0001 C CNN
@@ -261,9 +267,11 @@ F 3 "" H 1275 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C1
+L Device:C_Small C1
 U 1 1 5A0ED736
 P 2750 3600
+AR Path="/5A0ED736" Ref="C1"  Part="1" 
+AR Path="/5A0DE9BD/5A0ED736" Ref="C1"  Part="1" 
 F 0 "C1" H 2842 3646 50  0000 L CNN
 F 1 "1uF" H 2842 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2750 3600 50  0001 C CNN
@@ -272,7 +280,7 @@ F 3 "" H 2750 3600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR017
+L power:GND #PWR017
 U 1 1 5A0EECFB
 P 2750 3700
 F 0 "#PWR017" H 2750 3450 50  0001 C CNN
@@ -287,7 +295,7 @@ D-
 Text Label 3125 2100 2    60   ~ 0
 D+
 $Comp
-L vitamins_included-rescue:Jumper-RESCUE-lets_split_panel-lets_split_panel-rescue JP2
+L Device:Jumper JP2
 U 1 1 5A104048
 P 1425 5225
 F 0 "JP2" H 1425 5375 50  0000 C CNN
@@ -298,7 +306,7 @@ F 3 "" H 1425 5225 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:Conn_02x03_Odd_Even-RESCUE-lets_split_panel-lets_split_panel-rescue J3
+L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5A10645D
 P 2400 4375
 F 0 "J3" H 2450 4692 50  0000 C CNN
@@ -309,7 +317,7 @@ F 3 "" H 2400 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR018
+L power:VCC #PWR018
 U 1 1 5A10B959
 P 2750 4225
 F 0 "#PWR018" H 2750 4075 50  0001 C CNN
@@ -320,7 +328,7 @@ F 3 "" H 2750 4225 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR019
+L power:GND #PWR019
 U 1 1 5A10BE44
 P 2750 4525
 F 0 "#PWR019" H 2750 4275 50  0001 C CNN
@@ -576,7 +584,7 @@ F 3 "" H 6850 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW1
+L Switch:SW_Push SW1
 U 1 1 5A172F2E
 P 6350 1700
 F 0 "SW1" H 6350 1985 50  0000 C CNN
@@ -643,7 +651,7 @@ Wire Wire Line
 Connection ~ 6850 1950
 Connection ~ 8450 1950
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW2
+L Switch:SW_Push SW2
 U 1 1 5A176382
 P 7350 1700
 F 0 "SW2" H 7350 1985 50  0000 C CNN
@@ -654,7 +662,7 @@ F 3 "" H 7350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW3
+L Switch:SW_Push SW3
 U 1 1 5A1763EE
 P 7950 1700
 F 0 "SW3" H 7950 1985 50  0000 C CNN
@@ -665,7 +673,7 @@ F 3 "" H 7950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW4
+L Switch:SW_Push SW4
 U 1 1 5A176446
 P 8950 1700
 F 0 "SW4" H 8950 1985 50  0000 C CNN
@@ -676,7 +684,7 @@ F 3 "" H 8950 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW5
+L Switch:SW_Push SW5
 U 1 1 5A1764A4
 P 9550 1700
 F 0 "SW5" H 9550 1985 50  0000 C CNN
@@ -687,7 +695,7 @@ F 3 "" H 9550 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW6
+L Switch:SW_Push SW6
 U 1 1 5A1764FE
 P 10550 1700
 F 0 "SW6" H 10550 1985 50  0000 C CNN
@@ -709,7 +717,7 @@ F 3 "" H 6850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW7
+L Switch:SW_Push SW7
 U 1 1 5A1768AA
 P 6350 2350
 F 0 "SW7" H 6350 2635 50  0000 C CNN
@@ -764,7 +772,7 @@ Wire Wire Line
 Connection ~ 6850 2600
 Connection ~ 8450 2600
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW8
+L Switch:SW_Push SW8
 U 1 1 5A1768D3
 P 7350 2350
 F 0 "SW8" H 7350 2635 50  0000 C CNN
@@ -775,7 +783,7 @@ F 3 "" H 7350 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW9
+L Switch:SW_Push SW9
 U 1 1 5A1768DA
 P 7950 2350
 F 0 "SW9" H 7950 2635 50  0000 C CNN
@@ -786,7 +794,7 @@ F 3 "" H 7950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW10
+L Switch:SW_Push SW10
 U 1 1 5A1768E1
 P 8950 2350
 F 0 "SW10" H 8950 2635 50  0000 C CNN
@@ -797,7 +805,7 @@ F 3 "" H 8950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW11
+L Switch:SW_Push SW11
 U 1 1 5A1768E8
 P 9550 2350
 F 0 "SW11" H 9550 2635 50  0000 C CNN
@@ -808,7 +816,7 @@ F 3 "" H 9550 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW12
+L Switch:SW_Push SW12
 U 1 1 5A1768EF
 P 10550 2350
 F 0 "SW12" H 10550 2635 50  0000 C CNN
@@ -830,7 +838,7 @@ F 3 "" H 6850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW13
+L Switch:SW_Push SW13
 U 1 1 5A1773CA
 P 6350 3000
 F 0 "SW13" H 6350 3285 50  0000 C CNN
@@ -885,7 +893,7 @@ Wire Wire Line
 Connection ~ 6850 3250
 Connection ~ 8450 3250
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW14
+L Switch:SW_Push SW14
 U 1 1 5A1773F3
 P 7350 3000
 F 0 "SW14" H 7350 3285 50  0000 C CNN
@@ -896,7 +904,7 @@ F 3 "" H 7350 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW15
+L Switch:SW_Push SW15
 U 1 1 5A1773FA
 P 7950 3000
 F 0 "SW15" H 7950 3285 50  0000 C CNN
@@ -907,7 +915,7 @@ F 3 "" H 7950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW16
+L Switch:SW_Push SW16
 U 1 1 5A177401
 P 8950 3000
 F 0 "SW16" H 8950 3285 50  0000 C CNN
@@ -918,7 +926,7 @@ F 3 "" H 8950 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW17
+L Switch:SW_Push SW17
 U 1 1 5A177408
 P 9550 3000
 F 0 "SW17" H 9550 3285 50  0000 C CNN
@@ -929,7 +937,7 @@ F 3 "" H 9550 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW18
+L Switch:SW_Push SW18
 U 1 1 5A17740F
 P 10550 3000
 F 0 "SW18" H 10550 3285 50  0000 C CNN
@@ -951,7 +959,7 @@ F 3 "" H 6850 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW19
+L Switch:SW_Push SW19
 U 1 1 5A177699
 P 6350 3650
 F 0 "SW19" H 6350 3935 50  0000 C CNN
@@ -1006,7 +1014,7 @@ Wire Wire Line
 Connection ~ 6850 3900
 Connection ~ 8450 3900
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW20
+L Switch:SW_Push SW20
 U 1 1 5A1776C2
 P 7350 3650
 F 0 "SW20" H 7350 3935 50  0000 C CNN
@@ -1017,7 +1025,7 @@ F 3 "" H 7350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW21
+L Switch:SW_Push SW21
 U 1 1 5A1776C9
 P 7950 3650
 F 0 "SW21" H 7950 3935 50  0000 C CNN
@@ -1028,7 +1036,7 @@ F 3 "" H 7950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW22
+L Switch:SW_Push SW22
 U 1 1 5A1776D0
 P 8950 3650
 F 0 "SW22" H 8950 3935 50  0000 C CNN
@@ -1039,7 +1047,7 @@ F 3 "" H 8950 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW23
+L Switch:SW_Push SW23
 U 1 1 5A1776D7
 P 9550 3650
 F 0 "SW23" H 9550 3935 50  0000 C CNN
@@ -1050,7 +1058,7 @@ F 3 "" H 9550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:SW_Push-RESCUE-lets_split_panel-lets_split_panel-rescue SW24
+L Switch:SW_Push SW24
 U 1 1 5A1776DE
 P 10550 3650
 F 0 "SW24" H 10550 3935 50  0000 C CNN
@@ -1183,7 +1191,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1100 3125 1100
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR06
+L power:VCC #PWR06
 U 1 1 5B50839C
 P 2750 3500
 F 0 "#PWR06" H 2750 3350 50  0001 C CNN
@@ -1205,7 +1213,7 @@ F 3 "~" H 3750 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR015
+L power:GND #PWR015
 U 1 1 5B531998
 P 3500 5375
 F 0 "#PWR015" H 3500 5125 50  0001 C CNN
@@ -1216,7 +1224,7 @@ F 3 "" H 3500 5375 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR024
+L power:GND #PWR024
 U 1 1 5B57FD0A
 P 5275 1475
 F 0 "#PWR024" H 5275 1225 50  0001 C CNN
@@ -1229,7 +1237,7 @@ $EndComp
 Wire Wire Line
 	5225 1300 5275 1300
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R11
+L Device:R_Small R11
 U 1 1 5B59BDE8
 P 5125 1300
 F 0 "R11" H 5150 1325 50  0000 L CNN
@@ -1264,7 +1272,7 @@ Connection ~ 1925 2000
 Wire Wire Line
 	4725 1400 5025 1400
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R13
+L Device:R_Small R13
 U 1 1 5B569B84
 P 5125 1400
 F 0 "R13" H 4925 1425 50  0000 L CNN
@@ -1328,7 +1336,7 @@ F 3 "~" V 5175 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R15
+L Device:R_Small R15
 U 1 1 5B5E58FB
 P 5375 2500
 F 0 "R15" V 5525 2425 50  0000 L CNN
@@ -1343,7 +1351,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 2500 5600 2550
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0101
+L power:GND #PWR0101
 U 1 1 5B621855
 P 5600 2550
 F 0 "#PWR0101" H 5600 2300 50  0001 C CNN
@@ -1365,9 +1373,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5775 4250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C9
+L Device:C_Small C9
 U 1 1 5C26324E
 P 5225 4425
+AR Path="/5C26324E" Ref="C9"  Part="1" 
+AR Path="/5A0DE9BD/5C26324E" Ref="C9"  Part="1" 
 F 0 "C9" H 5317 4471 50  0000 L CNN
 F 1 "1uF" H 5317 4380 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5225 4425 50  0001 C CNN
@@ -1401,9 +1411,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6725 4250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C10
+L Device:C_Small C10
 U 1 1 5C263263
 P 6175 4425
+AR Path="/5C263263" Ref="C10"  Part="1" 
+AR Path="/5A0DE9BD/5C263263" Ref="C10"  Part="1" 
 F 0 "C10" H 6267 4471 50  0000 L CNN
 F 1 "1uF" H 6267 4380 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6175 4425 50  0001 C CNN
@@ -1437,9 +1449,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7675 4250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C11
+L Device:C_Small C11
 U 1 1 5C263278
 P 7125 4425
+AR Path="/5C263278" Ref="C11"  Part="1" 
+AR Path="/5A0DE9BD/5C263278" Ref="C11"  Part="1" 
 F 0 "C11" H 7217 4471 50  0000 L CNN
 F 1 "1uF" H 7217 4380 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7125 4425 50  0001 C CNN
@@ -1473,9 +1487,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5775 5450 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C12
+L Device:C_Small C12
 U 1 1 5C26328D
 P 5225 5625
+AR Path="/5C26328D" Ref="C12"  Part="1" 
+AR Path="/5A0DE9BD/5C26328D" Ref="C12"  Part="1" 
 F 0 "C12" H 5317 5671 50  0000 L CNN
 F 1 "1uF" H 5317 5580 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5225 5625 50  0001 C CNN
@@ -1505,9 +1521,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6725 5450 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C13
+L Device:C_Small C13
 U 1 1 5C2632A0
 P 6175 5625
+AR Path="/5C2632A0" Ref="C13"  Part="1" 
+AR Path="/5A0DE9BD/5C2632A0" Ref="C13"  Part="1" 
 F 0 "C13" H 6267 5671 50  0000 L CNN
 F 1 "1uF" H 6267 5580 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6175 5625 50  0001 C CNN
@@ -1541,9 +1559,11 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7675 5450 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:C_Small-RESCUE-lets_split_panel-lets_split_panel-rescue C14
+L Device:C_Small C14
 U 1 1 5C2632B5
 P 7125 5625
+AR Path="/5C2632B5" Ref="C14"  Part="1" 
+AR Path="/5A0DE9BD/5C2632B5" Ref="C14"  Part="1" 
 F 0 "C14" H 7217 5671 50  0000 L CNN
 F 1 "1uF" H 7217 5580 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7125 5625 50  0001 C CNN
@@ -1590,7 +1610,7 @@ Wire Wire Line
 Connection ~ 6625 4975
 Connection ~ 7125 4975
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0103
+L power:VCC #PWR0103
 U 1 1 5C2632D3
 P 5225 4225
 F 0 "#PWR0103" H 5225 4075 50  0001 C CNN
@@ -1604,7 +1624,7 @@ Connection ~ 5225 4275
 Wire Wire Line
 	5225 4275 5225 4225
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0104
+L power:VCC #PWR0104
 U 1 1 5C2632DB
 P 5225 5450
 F 0 "#PWR0104" H 5225 5300 50  0001 C CNN
@@ -1620,7 +1640,7 @@ Wire Wire Line
 Wire Wire Line
 	5225 5475 5225 5525
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0105
+L power:GND #PWR0105
 U 1 1 5C2632E4
 P 5225 6225
 F 0 "#PWR0105" H 5225 5975 50  0001 C CNN
@@ -1634,7 +1654,7 @@ Wire Wire Line
 	5225 6225 5225 6175
 Connection ~ 5225 6175
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0106
+L power:GND #PWR0106
 U 1 1 5C2632EC
 P 5225 5025
 F 0 "#PWR0106" H 5225 4775 50  0001 C CNN
@@ -1767,7 +1787,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3100 4725 3100
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R18
+L Device:R_Small R18
 U 1 1 5D1F5D3C
 P 2050 1700
 F 0 "R18" H 2080 1720 50  0000 L CNN
@@ -1778,7 +1798,7 @@ F 3 "" H 2050 1700 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R17
+L Device:R_Small R17
 U 1 1 5D1F5FF4
 P 2050 1600
 F 0 "R17" H 2080 1620 50  0000 L CNN
@@ -1793,7 +1813,7 @@ Wire Wire Line
 Wire Wire Line
 	1875 1600 1950 1600
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR0111
+L power:GND #PWR0111
 U 1 1 5D209478
 P 2200 1750
 F 0 "#PWR0111" H 2200 1500 50  0001 C CNN
@@ -1927,7 +1947,7 @@ F 3 "~" H 2500 4950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L vitamins_included-rescue:VCC-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR016
+L power:VCC #PWR016
 U 1 1 5ED7E53B
 P 2750 4900
 F 0 "#PWR016" H 2750 4750 50  0001 C CNN
@@ -1938,7 +1958,7 @@ F 3 "" H 2750 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:GND-RESCUE-lets_split_panel-lets_split_panel-rescue #PWR010
+L power:GND #PWR010
 U 1 1 5EDAE759
 P 2150 5300
 F 0 "#PWR010" H 2150 5050 50  0001 C CNN
@@ -2047,7 +2067,7 @@ F 3 "~" V 3625 4375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R2
+L Device:R_Small R2
 U 1 1 59DCCDB8
 P 1425 5675
 F 0 "R2" H 1455 5695 50  0000 L CNN
@@ -2058,7 +2078,7 @@ F 3 "" H 1425 5675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R1
+L Device:R_Small R1
 U 1 1 59DCCEA0
 P 1325 5675
 F 0 "R1" H 1355 5695 50  0000 L CNN
@@ -2069,7 +2089,7 @@ F 3 "" H 1325 5675 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L vitamins_included-rescue:R_Small-RESCUE-lets_split_panel-lets_split_panel-rescue R6
+L Device:R_Small R6
 U 1 1 5A0DF0B3
 P 2375 1225
 F 0 "R6" H 2405 1245 50  0000 L CNN

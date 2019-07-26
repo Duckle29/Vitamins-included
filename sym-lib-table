@@ -1,8 +1,3 @@
 (sym_lib_table
-  (lib (name lets_split_panel-rescue)(type Legacy)(uri ${KIPRJMOD}/lets_split_panel-rescue.lib)(options "")(descr ""))
-  (lib (name SeeedOPL-IC-2016)(type Legacy)(uri "D:/OneDrive/Til NAS/Projekter/KiCAD/Third-party-libs/SeeedOPL/SeeedOPL-IC-2016.lib")(options "")(descr ""))
-  (lib (name electro-mechanical)(type Legacy)(uri ${DUMLIBS}electro-mechanical.lib)(options "")(descr ""))
-  (lib (name lets_split-rescue)(type Legacy)(uri ${KIPRJMOD}/../lets_split/lets_split-rescue.lib)(options "")(descr ""))
   (lib (name 8Bit-MCU)(type Legacy)(uri ${DUMLIBS}/8Bit-MCU.lib)(options "")(descr ""))
-  (lib (name vitamins_included-rescue)(type Legacy)(uri ${KIPRJMOD}/vitamins_included-rescue.lib)(options "")(descr ""))
 )
