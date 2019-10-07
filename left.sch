@@ -349,8 +349,6 @@ Wire Wire Line
 Wire Wire Line
 	4725 3200 4800 3200
 Wire Wire Line
-	4725 2850 4800 2850
-Wire Wire Line
 	4725 2700 4800 2700
 Wire Wire Line
 	4725 2600 4800 2600
@@ -504,8 +502,6 @@ Text Label 4800 3200 0    60   ~ 0
 col0
 Text Label 4800 3100 0    60   ~ 0
 WS2812-in
-Text Label 4800 2850 0    60   ~ 0
-col2
 Text Label 4800 2700 0    60   ~ 0
 col4
 Text Label 4800 2600 0    60   ~ 0
@@ -2131,4 +2127,8 @@ Wire Wire Line
 	4525 4375 4525 4425
 Wire Wire Line
 	4575 4375 4525 4375
+Text Label 4800 2850 0    60   ~ 0
+col2
+Wire Wire Line
+	4725 2850 4800 2850
 $EndSCHEMATC
