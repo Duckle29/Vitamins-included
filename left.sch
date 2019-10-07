@@ -469,7 +469,6 @@ Wire Wire Line
 	2150 6025 2250 6025
 Wire Wire Line
 	2150 6075 2150 6025
-Connection ~ 1325 5925
 Wire Wire Line
 	1425 5525 1425 5575
 Wire Wire Line
@@ -1914,11 +1913,6 @@ Wire Wire Line
 	1425 5825 1425 5775
 Wire Wire Line
 	875  5825 1425 5825
-Connection ~ 1425 5825
-Wire Wire Line
-	1425 5825 2250 5825
-Wire Wire Line
-	1325 5925 2250 5925
 Wire Wire Line
 	875  5925 1325 5925
 Wire Notes Line
@@ -2204,10 +2198,6 @@ Wire Wire Line
 	3625 7025 3675 7025
 Wire Wire Line
 	3675 7025 3675 6925
-Text Label 3675 6925 0    60   ~ 0
-SDA
-Text Label 2450 6900 0    60   ~ 0
-SCL/D3
 Wire Wire Line
 	2450 7025 2450 6900
 Wire Wire Line
@@ -2223,4 +2213,44 @@ F 3 "" H 3125 6525 50  0000 C CNN
 	1    3125 6525
 	1    0    0    -1  
 $EndComp
+Connection ~ 1425 5825
+Connection ~ 1325 5925
+Wire Wire Line
+	2000 5825 2250 5825
+Wire Wire Line
+	2250 5925 2000 5925
+Wire Wire Line
+	1800 5925 1325 5925
+Wire Wire Line
+	1800 5825 1425 5825
+$Comp
+L Device:R_Small R21
+U 1 1 5D9D64B4
+P 1900 5825
+F 0 "R21" V 2050 5775 50  0000 L CNN
+F 1 "220R" V 1975 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 5825 50  0001 C CNN
+F 3 "" H 1900 5825 50  0000 C CNN
+	1    1900 5825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 5DA3BD0C
+P 1900 5925
+F 0 "R22" V 1750 5875 50  0000 L CNN
+F 1 "220R" V 1825 5825 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 5925 50  0001 C CNN
+F 3 "" H 1900 5925 50  0000 C CNN
+	1    1900 5925
+	0    -1   -1   0   
+$EndComp
+Text Label 2250 5825 2    60   ~ 0
+Ring1
+Text Label 2250 5925 2    60   ~ 0
+Ring2
+Text Label 2450 6900 0    60   ~ 0
+Ring1
+Text Label 3675 6925 0    60   ~ 0
+Ring2
 $EndSCHEMATC
