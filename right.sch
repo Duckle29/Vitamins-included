@@ -1900,13 +1900,13 @@ Wire Wire Line
 Text Label 1025 5825 0    60   ~ 0
 SCL/D3
 Wire Notes Line
-	875  6300 875  4000
+	875  7750 875  4000
 Wire Notes Line
 	875  4000 4600 4000
 Wire Notes Line
-	4600 4000 4600 6300
+	4600 4000 4600 7750
 Wire Notes Line
-	875  6300 4600 6300
+	875  7750 4600 7750
 Text Notes 900  4125 0    60   ~ 0
 Connectivity
 Wire Wire Line
@@ -2139,6 +2139,106 @@ F 1 "Buzzer" H 3028 4238 50  0000 L CNN
 F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" V 2850 4400 50  0001 C CNN
 F 3 "~" V 2850 4400 50  0001 C CNN
 	1    2875 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:PRTR5V0U2X D?
+U 1 1 5DC29991
+P 1950 7025
+AR Path="/5A0DE9BD/5DC29991" Ref="D?"  Part="1" 
+AR Path="/5A0DF911/5DC29991" Ref="D43"  Part="1" 
+F 0 "D43" H 1650 7375 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 2075 7375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2010 7025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 2010 7025 50  0001 C CNN
+	1    1950 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5DC29997
+P 1950 6525
+AR Path="/5A0DE9BD/5DC29997" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5DC29997" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 1950 6375 50  0001 C CNN
+F 1 "VBUS" H 1965 6698 50  0000 C CNN
+F 2 "" H 1950 6525 50  0001 C CNN
+F 3 "" H 1950 6525 50  0001 C CNN
+	1    1950 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DC2999D
+P 1950 7525
+AR Path="/5A0DE9BD/5DC2999D" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5DC2999D" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 1950 7275 50  0001 C CNN
+F 1 "GND" H 1950 7375 50  0000 C CNN
+F 2 "" H 1950 7525 50  0000 C CNN
+F 3 "" H 1950 7525 50  0000 C CNN
+	1    1950 7525
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 7025 1400 7025
+Wire Wire Line
+	1400 7025 1400 6900
+Wire Wire Line
+	2450 7025 2500 7025
+Wire Wire Line
+	2500 7025 2500 6925
+Text Label 2500 6925 0    60   ~ 0
+Dd-
+Text Label 1400 6900 0    60   ~ 0
+Dd+
+$Comp
+L Power_Protection:PRTR5V0U2X D44
+U 1 1 5DE95F68
+P 3525 7025
+F 0 "D44" H 3225 7375 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 3650 7375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 3585 7025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3585 7025 50  0001 C CNN
+	1    3525 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 5DE95F74
+P 3525 7525
+F 0 "#PWR0138" H 3525 7275 50  0001 C CNN
+F 1 "GND" H 3525 7375 50  0000 C CNN
+F 2 "" H 3525 7525 50  0000 C CNN
+F 3 "" H 3525 7525 50  0000 C CNN
+	1    3525 7525
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 7025 4075 7025
+Wire Wire Line
+	4075 7025 4075 6925
+Text Label 2850 6925 0    60   ~ 0
+SDA
+Text Label 4075 6925 0    60   ~ 0
+SCL/D3
+Wire Wire Line
+	2850 7025 2850 6925
+Wire Wire Line
+	2850 7025 3025 7025
+Text Notes 900  6400 0    60   ~ 0
+ESD protection
+$Comp
+L power:VCC #PWR?
+U 1 1 5DF2126A
+P 3525 6525
+AR Path="/5A0DE9BD/5DF2126A" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5DF2126A" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3525 6375 50  0001 C CNN
+F 1 "VCC" H 3525 6675 50  0000 C CNN
+F 2 "" H 3525 6525 50  0000 C CNN
+F 3 "" H 3525 6525 50  0000 C CNN
+	1    3525 6525
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1922,13 +1922,13 @@ Wire Wire Line
 Wire Wire Line
 	875  5925 1325 5925
 Wire Notes Line
-	825  6300 825  4000
+	825  7750 825  4000
 Wire Notes Line
 	825  4000 5425 4000
 Wire Notes Line
-	5425 4000 5425 6300
+	5425 4000 5425 7750
 Wire Notes Line
-	825  6300 5425 6300
+	825  7750 5425 7750
 Text Notes 850  4125 0    60   ~ 0
 Connectivity
 $Comp
@@ -2131,4 +2131,96 @@ Text Label 4800 2850 0    60   ~ 0
 col2
 Wire Wire Line
 	4725 2850 4800 2850
+$Comp
+L Power_Protection:PRTR5V0U2X D42
+U 1 1 5D9D619E
+P 1475 7025
+F 0 "D42" H 1175 7375 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 1600 7375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 1535 7025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 1535 7025 50  0001 C CNN
+	1    1475 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0131
+U 1 1 5DA6A0DF
+P 1475 6525
+F 0 "#PWR0131" H 1475 6375 50  0001 C CNN
+F 1 "VBUS" H 1490 6698 50  0000 C CNN
+F 2 "" H 1475 6525 50  0001 C CNN
+F 3 "" H 1475 6525 50  0001 C CNN
+	1    1475 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5DA6AF0C
+P 1475 7525
+F 0 "#PWR0132" H 1475 7275 50  0001 C CNN
+F 1 "GND" H 1475 7375 50  0000 C CNN
+F 2 "" H 1475 7525 50  0000 C CNN
+F 3 "" H 1475 7525 50  0000 C CNN
+	1    1475 7525
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	975  7025 925  7025
+Wire Wire Line
+	925  7025 925  6900
+Wire Wire Line
+	1975 7025 2025 7025
+Wire Wire Line
+	2025 7025 2025 6925
+Text Label 925  6900 0    60   ~ 0
+Dd+
+Text Label 2025 6925 0    60   ~ 0
+Dd-
+Text Notes 875  6250 0    60   ~ 0
+ESD protection
+$Comp
+L Power_Protection:PRTR5V0U2X D41
+U 1 1 5DDB696C
+P 3125 7025
+F 0 "D41" H 2825 7375 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 3250 7375 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 3185 7025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3185 7025 50  0001 C CNN
+	1    3125 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 5DDB6980
+P 3125 7525
+F 0 "#PWR0136" H 3125 7275 50  0001 C CNN
+F 1 "GND" H 3125 7375 50  0000 C CNN
+F 2 "" H 3125 7525 50  0000 C CNN
+F 3 "" H 3125 7525 50  0000 C CNN
+	1    3125 7525
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 7025 3675 7025
+Wire Wire Line
+	3675 7025 3675 6925
+Text Label 3675 6925 0    60   ~ 0
+SDA
+Text Label 2450 6900 0    60   ~ 0
+SCL/D3
+Wire Wire Line
+	2450 7025 2450 6900
+Wire Wire Line
+	2450 7025 2625 7025
+$Comp
+L power:VCC #PWR0135
+U 1 1 5DF1EEC0
+P 3125 6525
+F 0 "#PWR0135" H 3125 6375 50  0001 C CNN
+F 1 "VCC" H 3125 6675 50  0000 C CNN
+F 2 "" H 3125 6525 50  0000 C CNN
+F 3 "" H 3125 6525 50  0000 C CNN
+	1    3125 6525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
