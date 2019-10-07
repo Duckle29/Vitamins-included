@@ -4,6 +4,8 @@ View this project on [CADLAB.io](https://cadlab.io/project/1862).
 
 This repository contains all files necesarry to make the Let's split keyboard variant "Vitamins included"
 
+Files are not guarranteed to be in sync outside of tagged releases. They aren't on releases either, but they should be ;)
+
 The kit for these PCBs are sold at [Novelkeys](https://novelkeys.xyz), 
 the firmware for the keyboard is [QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards/vitamins_included)
 
