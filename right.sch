@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:vitamins_included-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,7 +36,7 @@ F 3 "" H 2550 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 8Bit-MCU:ATMega32U4 U2
+L vitamins_included-rescue:ATMega32U4-8Bit-MCU U2
 U 1 1 5A0E298E
 P 3425 1550
 AR Path="/5A0E298E" Ref="U2"  Part="1" 
@@ -1075,8 +1074,6 @@ Wire Wire Line
 Wire Wire Line
 	4775 3200 4850 3200
 Wire Wire Line
-	4775 2850 4850 2850
-Wire Wire Line
 	4775 2700 4850 2700
 Wire Wire Line
 	4775 2600 4850 2600
@@ -1561,21 +1558,6 @@ Text Label 2650 4775 2    60   ~ 0
 ~Reset
 Wire Wire Line
 	5525 2500 5650 2500
-Wire Wire Line
-	5650 2500 5650 2550
-$Comp
-L power:GND #PWR?
-U 1 1 5DC94F9A
-P 5650 2550
-AR Path="/5A0DE9BD/5DC94F9A" Ref="#PWR?"  Part="1" 
-AR Path="/5A0DF911/5DC94F9A" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 5650 2300 50  0001 C CNN
-F 1 "GND" H 5650 2400 50  0000 C CNN
-F 2 "" H 5650 2550 50  0000 C CNN
-F 3 "" H 5650 2550 50  0000 C CNN
-	1    5650 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6825 4525 6825 4975
 Wire Wire Line
@@ -2275,4 +2257,37 @@ Text Label 4075 6925 0    60   ~ 0
 Ring1
 Text Label 2850 6925 0    60   ~ 0
 Ring2
+$Comp
+L Device:R_Small R?
+U 1 1 5F84799C
+P 5425 2850
+F 0 "R?" H 5450 2875 50  0000 L CNN
+F 1 "100k" H 5450 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5425 2850 50  0001 C CNN
+F 3 "" H 5425 2850 50  0000 C CNN
+	1    5425 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F848EE3
+P 5650 2900
+AR Path="/5A0DE9BD/5F848EE3" Ref="#PWR?"  Part="1" 
+AR Path="/5A0DF911/5F848EE3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 2650 50  0001 C CNN
+F 1 "GND" H 5650 2750 50  0000 C CNN
+F 2 "" H 5650 2900 50  0000 C CNN
+F 3 "" H 5650 2900 50  0000 C CNN
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2900 5650 2850
+Wire Wire Line
+	5650 2850 5525 2850
+Wire Wire Line
+	5650 2500 5650 2850
+Connection ~ 5650 2850
+Wire Wire Line
+	4775 2850 5325 2850
 $EndSCHEMATC

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name 8Bit-MCU)(type Legacy)(uri ${DUMLIBS}/8Bit-MCU.lib)(options "")(descr ""))
+  (lib (name "8Bit-MCU")(type "Legacy")(uri "${DUMLIBS}/8Bit-MCU.lib")(options "")(descr ""))
+  (lib (name "vitamins_included-rescue")(type "Legacy")(uri "${KIPRJMOD}/vitamins_included-rescue.lib")(options "")(descr ""))
 )

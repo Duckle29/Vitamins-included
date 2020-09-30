@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:vitamins_included-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -138,7 +137,7 @@ F 3 "" H 3400 4175 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 8Bit-MCU:ATMega32U4 U1
+L vitamins_included-rescue:ATMega32U4-8Bit-MCU U1
 U 1 1 5A0C4D11
 P 3375 1550
 AR Path="/5A0C4D11" Ref="U1"  Part="1" 
@@ -1343,17 +1342,15 @@ F 3 "" H 5375 2500 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5475 2500 5600 2500
-Wire Wire Line
-	5600 2500 5600 2550
 $Comp
 L power:GND #PWR0101
 U 1 1 5B621855
-P 5600 2550
-F 0 "#PWR0101" H 5600 2300 50  0001 C CNN
-F 1 "GND" H 5600 2400 50  0000 C CNN
-F 2 "" H 5600 2550 50  0000 C CNN
-F 3 "" H 5600 2550 50  0000 C CNN
-	1    5600 2550
+P 5600 2900
+F 0 "#PWR0101" H 5600 2650 50  0001 C CNN
+F 1 "GND" H 5600 2750 50  0000 C CNN
+F 2 "" H 5600 2900 50  0000 C CNN
+F 3 "" H 5600 2900 50  0000 C CNN
+	1    5600 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2123,8 +2120,6 @@ Wire Wire Line
 	4575 4375 4525 4375
 Text Label 4800 2850 0    60   ~ 0
 col2
-Wire Wire Line
-	4725 2850 4800 2850
 $Comp
 L Power_Protection:PRTR5V0U2X D42
 U 1 1 5D9D619E
@@ -2253,4 +2248,24 @@ Text Label 2450 6900 0    60   ~ 0
 Ring1
 Text Label 3675 6925 0    60   ~ 0
 Ring2
+$Comp
+L Device:R_Small R?
+U 1 1 5F759A1C
+P 5375 2850
+F 0 "R?" V 5525 2775 50  0000 L CNN
+F 1 "100k" V 5450 2750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5375 2850 50  0001 C CNN
+F 3 "" H 5375 2850 50  0000 C CNN
+	1    5375 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4725 2850 5275 2850
+Wire Wire Line
+	5600 2900 5600 2850
+Wire Wire Line
+	5600 2850 5475 2850
+Wire Wire Line
+	5600 2500 5600 2850
+Connection ~ 5600 2850
 $EndSCHEMATC
