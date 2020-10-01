@@ -1,5 +1,5 @@
-View this project on [CADLAB.io](https://cadlab.io/project/1862). 
-[iBOM](https://duckle29.github.io/Vitamins-included/)
+View this project on [CADLAB.io](https://cadlab.io/project/1862).   
+View the [iBOM](https://duckle29.github.io/Vitamins-included/ibom.html)
 
 # Vitamins Included
 
